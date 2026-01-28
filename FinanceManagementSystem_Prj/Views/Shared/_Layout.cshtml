@@ -1,34 +1,88 @@
-﻿<!DOCTYPE html>
+﻿ 
+
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - My ASP.NET Application</title>
+    <title>@ViewBag.Title - FinanceMS</title>
+
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
+
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <link href="~/Content/site.css" rel="stylesheet" />
+    <link href="~/Content/finance-navbar.css" rel="stylesheet" />
+ 
 </head>
 <body>
-    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark">
-        <div class="container">
-            @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
-            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" title="Toggle navigation" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse d-sm-inline-flex justify-content-between">
-                <ul class="navbar-nav flex-grow-1">
-                    <li>@Html.ActionLink("Home", "Index", "Home", new { area = "" }, new { @class = "nav-link" })</li>
-                    <li>@Html.ActionLink("About", "About", "Home", new { area = "" }, new { @class = "nav-link" })</li>
-                    <li>@Html.ActionLink("Contact", "Contact", "Home", new { area = "" }, new { @class = "nav-link" })</li>
-                </ul>
+
+    <!-- ================= NAVBAR ================= -->
+    <nav class="finance-navbar">
+        <div class="nav-container">
+
+            <!-- LOGO -->
+            <div class="nav-logo">
+                💳 Finance<span>MS</span>
             </div>
+
+            <!-- LEFT MENU -->
+            <ul class="nav-links left">
+
+                @* ===== USER MENU ===== *@
+                @if (Session["UserId"] != null)
+                {
+                    <li>
+                        <a href="@Url.Action("Dashboard", "User")">Dashboard</a>
+                    </li>
+                    <li>
+                        <a href="@Url.Action("SelectCard", "User")">EMI Card</a>
+                    </li>
+                }
+
+
+            </ul>
+
+            <!-- RIGHT MENU -->
+            <ul class="nav-links right">
+
+                @* ===== NOT LOGGED IN ===== *@
+                @if (Session["UserId"] == null && Session["AdminId"] == null)
+                {
+                    <li>
+                        <a href="@Url.Action("Login", "Account")">Login</a>
+                    </li>
+                    <li>
+                        <a class="btn-primary" href="@Url.Action("Register", "Account")">
+                            Register
+                        </a>
+                    </li>
+                }
+
+                @* ===== USER LOGOUT ===== *@
+                else if (Session["UserId"] != null)
+                {
+                    <li>
+                        <a href="@Url.Action("Logout", "User")" class="btn-danger">
+                            Logout
+                        </a>
+                    </li>
+                }
+
+
+
+            </ul>
+
         </div>
     </nav>
+    
+    <!-- ================= END NAVBAR ================= -->
+
     <div class="container body-content">
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+            <p>&copy; @DateTime.Now.Year - FinanceMS</p>
         </footer>
     </div>
 

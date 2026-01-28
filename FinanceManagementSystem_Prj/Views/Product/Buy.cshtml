@@ -1,0 +1,15 @@
+﻿
+@{
+    ViewBag.Title = "Buy";
+}
+
+<h2>Choose Payment Option</h2>
+
+<a href="@Url.Action("PayBeforeDueDate","Payment", new { productId = Model.ProductId })">
+    💳 Pay EMI Before Due Date
+</a>
+
+<a href="@Url.Action("BuyOnEMI","Payment", new { productId = Model.ProductId })">
+    📆 Buy on EMI
+</a>
+

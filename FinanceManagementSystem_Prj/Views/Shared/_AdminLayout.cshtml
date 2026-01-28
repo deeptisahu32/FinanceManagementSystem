@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewBag.Title - FinanceMS Admin</title>
+
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <link href="~/Content/site.css" rel="stylesheet" />
+    <link href="~/Content/finance-navbar.css" rel="stylesheet" />
+
+    <!--  ADMIN DASHBOARD CSS (ONLY HERE) -->
+    <link href="~/Content/admin-dashboard.css" rel="stylesheet" />
+    <link href="~/Content/admin-viewuser.css" rel="stylesheet" />
+
+</head>
+
+
+<body>
+    <nav class="finance-navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                💳 Finance<span>MS</span> <small>Admin</small>
+            </div>
+
+            <ul class="nav-links left">
+                @if (Session["AdminId"] != null)
+                {
+                    <li>
+                        <a href="@Url.Action("Dashboard", "Admin")">Dashboard</a>
+                    </li>
+
+                    <li>
+                        <a href="@Url.Action("PendingUsers", "Admin")">User Approvals</a>
+                    </li>
+
+                    <li>
+                        <a href="@Url.Action("PendingApplications", "Admin")">
+                            EMI Card Applications
+                        </a>
+                    </li>
+                }
+            </ul>
+
+            <ul class="nav-links right">
+                @if (Session["AdminId"] != null)
+                {
+                    <li>
+                        <a href="@Url.Action("Logout", "Admin")" class="btn-danger">
+                            Logout
+                        </a>
+                    </li>
+                }
+            </ul>
+
+           
+
+        </div>
+    </nav>
+
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - FinanceMS Admin</p>
+        </footer>
+    </div>
+
+</body>
+</html>
+
+ 

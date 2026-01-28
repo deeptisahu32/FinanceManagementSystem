@@ -1,0 +1,178 @@
+﻿body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #f4f6f9;
+}
+
+/* ===== LOGIN PAGE ===== */
+
+.admin-wrapper {
+    width: 900px;
+    height: 480px;
+    margin: 80px auto;
+    display: flex;
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.admin-left {
+    width: 40%;
+    background: linear-gradient(180deg, #1e3c72, #2a5298);
+    color: white;
+    padding: 80px 40px;
+}
+
+    .admin-left h1 {
+        font-size: 34px;
+    }
+
+.admin-right {
+    width: 60%;
+    padding: 80px;
+}
+
+    .admin-right h2 {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+    .input:focus {
+        border-color: #2a5298;
+        outline: none;
+    }
+
+.btn {
+    width: 100%;
+    padding: 12px;
+    background: #2a5298;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* ===== DASHBOARD ===== */
+
+.dashboard-wrapper {
+    width: 90%;
+    margin: 50px auto;
+}
+
+    .dashboard-wrapper h2 {
+        margin-bottom: 20px;
+    }
+
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+    .styled-table th,
+    .styled-table td {
+        padding: 14px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .styled-table th {
+        background: #2a5298;
+        color: white;
+    }
+
+.btn-approve {
+    padding: 8px 18px;
+    background: #28a745;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+
+/*pending Application*/
+.admin-container {
+    max-width: 1200px;
+    margin: 40px auto;
+}
+
+.subtitle {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.admin-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+    .admin-table th {
+        background: #1e88e5;
+        color: white;
+        padding: 14px;
+    }
+
+    .admin-table td {
+        padding: 14px;
+        border-bottom: 1px solid #eee;
+    }
+
+    .admin-table tr:hover {
+        background: #f8fbff;
+    }
+
+.status.pending {
+    background: #fff3cd;
+    color: #856404;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-weight: 600;
+}
+
+.btn.approve {
+    background: #28a745;
+    color: white;
+    padding: 7px 16px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+    .btn.approve:hover {
+        background: #218838;
+    }
+
+.no-data {
+    margin-top: 25px;
+    font-weight: bold;
+    color: green;
+}
+
+.card {
+    border-radius: 14px;
+}
+
+.form-label {
+    font-weight: 600;
+}
+
+.btn {
+    padding: 8px 18px;
+}

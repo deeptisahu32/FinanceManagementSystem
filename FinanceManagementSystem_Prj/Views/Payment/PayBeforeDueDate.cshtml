@@ -1,0 +1,28 @@
+﻿@model FinanceManagementSystem_Prj.Models.Product
+
+@{
+    ViewBag.Title = "PayBeforeDueDate";
+}
+
+ 
+<div class="payment-card">
+    <h2>PayBefore Due Date</h2>
+
+    <p class="product-name">@Model.ProductName</p>
+    <p class="price">₹ @Model.Price</p>
+
+    <p class="note">
+        You can pay your EMI anytime before the due date.
+    </p>
+
+    <a href="@Url.Action("ConfirmEMIPayment","Payment",
+        new { productId = Model.ProductId })"
+       class="btn-primary">
+        Proceed to Pay
+    </a>
+
+    <a href="@Url.Action("Index","Product")" class="back-link">
+        ← Back to Products
+    </a>
+</div>
+

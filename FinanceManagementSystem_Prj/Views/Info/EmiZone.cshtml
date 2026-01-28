@@ -1,0 +1,52 @@
+﻿
+@{
+    ViewBag.Title = "EMI Zone";
+}
+<link href="~/Content/info-pages.css" rel="stylesheet" />
+
+<div class="page-wrapper">
+
+    <div class="page-header">
+        
+
+        <div class="page-title">
+            <h2>💳 EMI Zone</h2>
+            <p>Understand EMI rules, cards & benefits</p>
+        </div>
+    </div>
+
+    <div class="card-grid">
+
+        <div class="info-card">
+            <h3>Available Cards</h3>
+            <ul>
+                <li>Gold – ₹40,000</li>
+                <li>Platinum – ₹80,0000</li>
+            </ul>
+        </div>
+
+        <div class="info-card">
+            <h3>EMI Rules</h3>
+            <ul>
+                <li>3 / 6 / 9 / 12 months EMI</li>
+                <li>One active EMI card per user</li>
+                <li>Late payment blocks next EMI</li>
+            </ul>
+        </div>
+
+        <div class="info-card">
+            <h3>Benefits</h3>
+            <ul>
+                <li>No-cost EMI</li>
+                <li>Flexible pre-payment</li>
+                <li>Instant limit restoration</li>
+            </ul>
+        </div>
+        <br />
+        <a href="@Url.Action("Index","Product")" class="back-btn">
+            ⬅ Back
+        </a>
+
+    </div>
+
+</div>

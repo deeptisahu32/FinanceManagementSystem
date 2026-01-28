@@ -1,0 +1,152 @@
+﻿
+@model IEnumerable<FinanceManagementSystem_Prj.Models.Purchase>
+
+@{
+    ViewBag.Title = "User Orders";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="container-fluid mt-4">
+
+    <!-- HEADER -->
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <h3 class="fw-bold">
+            📦 User Orders
+        </h3>
+
+        <span class="badge bg-primary fs-6 px-3 py-2">
+            Total Orders: @Model.Count()
+        </span>
+    </div>
+
+    <!-- CARD -->
+    <div class="card orders-card shadow-sm">
+
+        <div class="table-responsive">
+            <table class="table orders-table mb-0">
+
+                <thead>
+                    <tr>
+                        <th>UserID</th>
+                        <th>User</th>
+                        <th>Product</th>
+                        <th class="text-end">Amount</th>
+                         
+                        <th>Date</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    @foreach (var order in Model)
+                    {
+                        <tr>
+                            <td>@order.User.UserId</td>
+                            <td class="fw-semibold">
+                                @order.User.FullName
+                            </td>
+
+                            <td>
+                                @order.Product.ProductName
+                            </td>
+
+                            <td class="text-end amount">
+                                ₹ @order.TotalAmount.ToString("N2")
+                            </td>
+                            &nbsp;&nbsp;&nbsp;
+                            <td class="text-muted">
+                                @order.PurchaseDate
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+
+            </table>
+        </div>
+
+    </div>
+</div>
+
+<!-- ===================== -->
+<!-- ADVANCED TABLE STYLES -->
+<!-- ===================== -->
+<style>
+    /* CARD */
+    .orders-card {
+        border-radius: 14px;
+        border: 1px solid #e5e7eb;
+        background: #ffffff;
+    }
+
+    /* TABLE */
+    .orders-table {
+        width: 100%;
+        border-collapse: separate;
+        border-spacing: 0;
+    }
+
+        .orders-table thead th {
+            background: #1f2937; /* Dark gray */
+            color: #f9fafb; /* Soft white text */
+            font-size: 13px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            padding: 14px 16px;
+            border-bottom: 2px solid #111827;
+        }
+
+
+    /* ROWS */
+    .orders-table tbody tr {
+        border-bottom: 1px solid #e5e7eb;
+        transition: background 0.2s ease;
+    }
+
+    /* ZEBRA STRIPES */
+    .orders-table tbody tr:nth-child(even) {
+        background-color: #f9fafb;
+    }
+
+    /* HOVER */
+    .orders-table tbody tr:hover {
+        background-color: #eef2ff;
+    }
+
+    /* CELLS */
+    .orders-table td {
+        padding: 14px 16px;
+        font-size: 14px;
+        vertical-align: middle;
+    }
+
+    /* AMOUNT */
+    .orders-table .amount {
+        font-weight: 700;
+        color: #15803d;
+        white-space: nowrap;
+    }
+
+    /* RESPONSIVE */
+    media (max-width: 768px) {
+        .orders-table thead {
+            display: none;
+        }
+
+        .orders-table tr {
+            display: block;
+            margin-bottom: 12px;
+        }
+
+        .orders-table td {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 14px;
+        }
+
+        .orders-table td::before {
+            content: attr(data-label);
+            font-weight: 600;
+            color: #6b7280;
+        }
+    }
+</style>

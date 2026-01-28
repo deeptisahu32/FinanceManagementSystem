@@ -1,0 +1,44 @@
+﻿
+
+@{
+    ViewBag.Title = "Registration Successful";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<link href="~/Content/register-success.css" rel="stylesheet" />
+
+<div class="success-wrapper">
+
+    <div class="success-card">
+
+        <!-- ICON -->
+        <div class="success-icon">
+            ✔
+        </div>
+
+        <!-- TITLE -->
+        <h2>Registration Successful</h2>
+
+        <!-- MESSAGE -->
+        <p class="primary-text">
+            Thank you for registering with <b>FinanceMS</b>.
+        </p>
+
+        <p class="secondary-text">
+            Your account is currently under <b>admin verification</b>.<br />
+            Once approved, you can login and apply for EMI services.
+        </p>
+
+        <!-- INFO BOX -->
+        <div class="info-box">
+            ⏳ Approval usually takes <b>24 hours</b>.
+        </div>
+
+        <!-- ACTION -->
+        <a href="@Url.Action("Login","Account")" class="btn-login">
+            Go to Login
+        </a>
+
+    </div>
+
+</div>

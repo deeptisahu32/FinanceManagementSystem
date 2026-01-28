@@ -1,0 +1,78 @@
+﻿@model FinanceManagementSystem_Prj.Models.User
+
+@{
+    ViewBag.Title = "User Details";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="admin-page">
+
+    <!-- HEADER -->
+    <div class="page-header">
+        <h1>User Profile Review</h1>
+        <p>Verify user information before approval</p>
+    </div>
+
+    <div class="profile-grid">
+
+        <!-- LEFT CARD -->
+        <div class="profile-card">
+
+            <h3>Personal Information</h3>
+
+            <div class="info-row">
+                <span>Full Name</span>
+                <strong>@Model.FullName</strong>
+            </div>
+
+            <div class="info-row">
+                <span>Username</span>
+                <strong>@Model.Username</strong>
+            </div>
+
+            <div class="info-row">
+                <span>Email</span>
+                <strong>@Model.Email</strong>
+            </div>
+
+            <div class="info-row">
+                <span>Phone</span>
+                <strong>@Model.Phone</strong>
+            </div>
+
+            <div class="info-row">
+                <span>Address</span>
+                <strong>@Model.Address</strong>
+            </div>
+        </div>
+
+        <!-- RIGHT CARD -->
+        <div class="profile-card status-card">
+
+            <h3>Account Status</h3>
+
+            <p class="status pending">Pending Approval</p>
+
+            <div class="action-buttons">
+                <a href="@Url.Action("Approve", "Admin", new { id = Model.UserId })"
+                   class="btn btn-success btn-lg"
+                   onclick="return confirm('Approve this user account?');">
+                    ✅ Approve User
+                </a>
+
+                <!-- REJECT -->
+                <a href="@Url.Action("Reject", "Admin", new { id = Model.UserId })"
+                   class="btn btn-danger btn-lg"
+                   onclick="return confirm('Are you sure you want to reject this user?');">
+                    ❌ Reject User
+                </a>
+
+                <a href="@Url.Action("PendingUsers", "Admin")"
+                   class="btn btn-outline-secondary">
+                    ← Back
+                </a>
+            </div>
+
+        </div>
+    </div>
+</div>

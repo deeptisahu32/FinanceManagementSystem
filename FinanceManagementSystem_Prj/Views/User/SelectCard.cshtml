@@ -1,0 +1,67 @@
+﻿@model IEnumerable<FinanceManagementSystem_Prj.Models.CardType>
+
+@{
+    ViewBag.Title = "Select EMI Card";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<link href="~/Content/select-card.css" rel="stylesheet" />
+
+<!-- PAGE HEADER -->
+<div class="select-card-header">
+    <h1>Select Your EMI Card</h1>
+    <p>Choose a card that matches your lifestyle & spending needs</p>
+</div>
+
+<!-- INFO BANNER -->
+<div class="info-banner">
+    <div class="info-left">
+        <span class="info-icon">💡</span>
+    </div>
+    <div class="info-right">
+        <h4>Important Information</h4>
+        <ul>
+            <li>You can apply for <b>only one EMI Card</b></li>
+            <li>Once approved, the card type <b>cannot be changed</b></li>
+            <li>Card approval depends on admin verification</li>
+        </ul>
+    </div>
+</div>
+
+
+
+@if (Model != null && Model.Any())
+{
+    <div class="card-type-grid">
+        @foreach (var card in Model)
+        {
+            <div class="card-type-box">
+
+                <div class="card-badge">@card.CardTypeName</div>
+
+                <h2>@card.CardTypeName EMI Card</h2>
+
+                <div class="card-details">
+                    <p><span>💳 Credit Limit</span> <b>₹@card.CardLimit.ToString("N0")</b></p>
+                    <p><span>💰 Joining Fee</span> <b>₹@card.JoiningFee.ToString("N0")</b></p>
+                </div>
+
+                <form method="post" action="@Url.Action("ApplyCard", "User")">
+                    @Html.AntiForgeryToken()
+                    <input type="hidden" name="cardTypeId" value="@card.CardTypeId" />
+                    <button type="submit" class="apply-btn">
+                        Apply This Card
+                    </button>
+                </form>
+
+            </div>
+        }
+    </div>
+}
+else
+{
+    <div class="no-card-message">
+        <h3>No EMI Cards Available</h3>
+        <p>Please try again later.</p>
+    </div>
+}

@@ -1,0 +1,28 @@
+﻿
+@{
+    ViewBag.Title = "MyEMIs";
+}
+
+@foreach (var emi in Model)
+{
+    <div>
+        ₹@emi.EMIAmount | Due: @emi.PaymentDate.ToShortDateString()
+
+        @if (emi.PaymentStatus == "Pending" && emi.PaymentDate <= DateTime.Now)
+        {
+            <a href="@Url.Action("PayEMI","EMI", new { id = emi.PaymentId })">
+                Pay EMI
+            </a>
+        }
+        else if (emi.PaymentStatus == "Paid")
+        {
+            <span>✔ Paid</span>
+        }
+        else
+        {
+            <span>⏳ Not Due</span>
+        }
+    </div>
+}
+
+

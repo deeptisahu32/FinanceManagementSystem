@@ -1,0 +1,26 @@
+﻿
+
+@model FinanceManagementSystem_Prj.Models.EMICard
+@{
+    ViewBag.Title = "My EMI Card";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link href="~/Content/emi-card.css" rel="stylesheet" />
+
+<div class="card-ui">
+    <h2>💳 Your EMI Card</h2>
+
+    <div class="emi-card">
+        <p><strong>Card Number: </strong> @Model.CardNumber</p>
+
+        <p><strong>Card Type:</strong> @Model.CardType.CardTypeName</p>
+        <p><strong>Card Limit:</strong> @Model.CardType.CardLimit</p>
+        <p><strong>Valid Till:</strong> @Model.ValidTill.ToString("MMM yyyy")</p>
+        <p>
+            <strong>Status:</strong>
+            <span class="active">Active</span>
+        </p>
+    </div>
+</div>
+
+

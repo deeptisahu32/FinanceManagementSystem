@@ -1,0 +1,63 @@
+﻿
+@model IEnumerable<FinanceManagementSystem_Prj.Models.Product>
+
+@{
+    ViewBag.Title = "Manage Products";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2 class="mb-3">Manage Products</h2>
+
+<a href="@Url.Action("AddProduct","Admin")" class="btn btn-primary mb-3">
+    ➕ Add Product
+</a>
+
+<table class="table table-bordered table-striped align-middle">
+    <thead class="table-dark">
+        <tr>
+            <th style="width:150px;">Image</th>
+            <th>Name</th>
+            <th style="width:120px;">Price</th>
+            <th style="width:180px;">Actions</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <!--  PRODUCT IMAGE -->
+                <td class="text-center">
+                    <img src="~/Content/ProductImages/@item.ImageUrl"
+                         alt="@item.ProductName"
+                         style="width:120px;height:120px;object-fit:cover;border-radius:8px;"
+                         onerror="this.src='/Content/no-image.png'" />
+                </td>
+
+                <!-- PRODUCT NAME -->
+                <td>
+                    <strong>@item.ProductName</strong>
+                </td>
+
+                <!-- PRICE -->
+                <td>
+                    ₹ @item.Price
+                </td>
+
+                <!-- ACTIONS -->
+                <td>
+                    <a href="@Url.Action("EditProduct","Admin", new { id = item.ProductId })"
+                       class="btn btn-sm btn-warning">
+                        ✏️ Edit
+                    </a>
+
+                    <a href="@Url.Action("DeleteProduct","Admin", new { id = item.ProductId })"
+                       class="btn btn-sm btn-danger"
+                       onclick="return confirm('Are you sure you want to delete this product?');">
+                        🗑 Delete
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

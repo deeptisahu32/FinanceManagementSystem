@@ -1,0 +1,238 @@
+﻿body {
+    background: #f4f7fb;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* MAIN WRAPPER */
+.user-dashboard {
+    padding: 40px;
+}
+
+/* HEADER */
+.dashboard-header {
+    background: linear-gradient(135deg, #1565c0, #1e88e5);
+    color: white;
+    padding: 35px 40px;
+    border-radius: 16px;
+    margin-bottom: 40px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.12);
+}
+
+    .dashboard-header h1 {
+        margin: 0;
+        font-size: 30px;
+    }
+
+    .dashboard-header p {
+        margin-top: 8px;
+        font-size: 16px;
+    }
+
+.status-approved {
+    background: #2e7d32;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 14px;
+    margin-left: 8px;
+}
+
+/* CARD GRID */
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 30px;
+}
+
+/* CARDS */
+.dashboard-card {
+    background: white;
+    border-radius: 18px;
+    padding: 30px 25px;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+    .dashboard-card:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 20px 45px rgba(0,0,0,0.15);
+    }
+
+    .dashboard-card h2 {
+        margin-bottom: 12px;
+        font-size: 22px;
+    }
+
+    .dashboard-card p {
+        font-size: 15px;
+        color: #555;
+        margin-bottom: 20px;
+    }
+
+/* BUTTON */
+.card-btn {
+    display: inline-block;
+    padding: 10px 22px;
+    border-radius: 25px;
+    font-weight: 600;
+    text-decoration: none;
+    background: #1e88e5;
+    color: white;
+    transition: background 0.3s ease;
+}
+
+    .card-btn:hover {
+        background: #1565c0;
+    }
+
+/* CARD COLORS */
+.dashboard-card.blue {
+    border-top: 5px solid #1e88e5;
+}
+
+.dashboard-card.purple {
+    border-top: 5px solid #6a1b9a;
+}
+
+.dashboard-card.green {
+    border-top: 5px solid #2e7d32;
+}
+
+.dashboard-card.red {
+    border-top: 5px solid #c62828;
+}
+
+.logout {
+    background: #c62828;
+}
+
+    .logout:hover {
+        background: #b71c1c;
+    }
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .dashboard-header {
+        padding: 25px;
+        text-align: center;
+    }
+}
+
+.card-status {
+    margin: 15px 0 30px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+    .card-status .pending {
+        /*        background: #fff3cd;*/
+        background:  #c62828;
+        
+        color: #c62828;
+        padding: 6px 14px;
+        border-radius: 20px;
+        margin-left: 8px;
+    }
+
+    .card-status .approved {
+        background: #d4edda;
+        color: #155724;
+    }
+
+    .card-status .rejected {
+        background: #f8d7da;
+        color: #721c24;
+    }
+
+
+
+/*    new added code*/
+/* ================= EMI CARD STATUS ================= */
+
+.card-status-box {
+    margin: 25px 0 35px;
+}
+
+/* COMMON STATUS STYLE */
+.status {
+    padding: 18px 22px;
+    border-radius: 16px;
+    font-size: 16px;
+    font-weight: 600;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+    .status span {
+        display: block;
+        font-size: 14px;
+        font-weight: 400;
+        margin-top: 6px;
+    }
+
+    /* PENDING */
+    .status.pending {
+        background: #fff8e1;
+        color: #8d6e00;
+        border-left: 6px solid #fbc02d;
+    }
+
+    /* APPROVED */
+    .status.approved {
+        background: #e8f5e9;
+        color: #1b5e20;
+        border-left: 6px solid #43a047;
+    }
+
+
+
+
+.pay-joining-btn {
+    display: inline-block;
+    margin-top: 18px;
+    padding: 14px 40px;
+    background: linear-gradient(135deg, #2e7d32, #43a047);
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 30px;
+    text-decoration: none;
+    box-shadow: 0 10px 25px rgba(67,160,71,0.45);
+}
+
+/*new added css for view EMIS*/
+.emi-card-container {
+    max-width: 700px;
+    margin: 40px auto;
+}
+
+.emi-card-box {
+    background: white;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+}
+
+    .emi-card-box p {
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+
+.status-active {
+    background: #2e7d32;
+    color: white;
+    padding: 4px 12px;
+    border-radius: 14px;
+    font-size: 14px;
+}
+
+.emi-actions {
+    margin-top: 25px;
+}
+
+.btn-secondary {
+    background: #1565c0;
+    color: white;
+    padding: 10px 22px;
+    border-radius: 22px;
+    text-decoration: none;
+}
+

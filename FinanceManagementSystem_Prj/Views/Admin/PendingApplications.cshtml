@@ -1,0 +1,94 @@
+﻿@model IEnumerable<FinanceManagementSystem_Prj.Models.UserCardApplication>
+ 
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    ViewBag.Title = "Pending EMI Card Applications";
+}
+
+<link href="~/Content/admin.css" rel="stylesheet" />
+
+<div class="admin-container">
+
+    <h1>Pending EMI Card Applications</h1>
+    <p class="subtitle">Review and approve user EMI card requests</p>
+
+    @if (TempData["Success"] != null)
+    {
+        <div class="alert success">@TempData["Success"]</div>
+    }
+
+    @if (TempData["Error"] != null)
+    {
+        <div class="alert error">@TempData["Error"]</div>
+    }
+
+    <table class="admin-table">
+        <thead>
+            <tr>
+                <th>User Name</th>
+                <th>Email</th>
+                <th>Card Type</th>
+                <th>Applied On</th>
+                <th>Status</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach (var app in Model)
+            {
+                <tr>
+                    <td>@app.User.FullName</td>
+                    <td>@app.User.Email</td>
+                    <td>@app.CardType.CardTypeName</td>
+                    <td>
+                        @(app.AppliedOn.HasValue
+                        ? app.AppliedOn.Value.ToString("dd-MMM-yyyy")
+                        : "-")
+                    </td>
+                     <td>
+                        <span class="status pending">@app.Status</span>
+                    </td>
+
+
+                    
+                    <td>
+                        @if (app.Status == "PendingAdminApproval")
+                        {
+                            <a href="@Url.Action("RequestJoiningFee","Admin", new { id = app.ApplicationId })"
+                               class="btn btn-warning">
+                                Request Joining Fee
+                            </a>
+                        }
+                        else if (app.Status == "JoiningFeeRequested")
+                        {
+                            <span class="badge badge-info">
+                                Waiting for Payment
+                            </span>
+                        }
+                        else if (app.Status == "JoiningFeePaid")
+                        {
+                            <a href="@Url.Action("ApproveEMICard","Admin", new { id = app.ApplicationId })"
+                               class="btn btn-success">
+                                Final Approve
+                            </a>
+                        }
+                        else if (app.Status == "CardApproved")
+                        {
+                            <span class="badge badge-success">
+                                EMI Card Issued
+                            </span>
+                        }
+                    </td>
+
+
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    @if (!Model.Any())
+    {
+        <p class="no-data">No pending applications 🎉</p>
+    }
+</div>

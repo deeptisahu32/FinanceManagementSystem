@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="443fbc95e9c54604b76091b8712a5a98" Name="Diagram1" ZoomLevel="62">
+        <EntityTypeShape EntityType="Finance_Management_SystemModel.CardType" Width="1.5" PointX="0.75" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Finance_Management_SystemModel.EMICard" Width="1.5" PointX="3" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Finance_Management_SystemModel.EMIPayment" Width="1.5" PointX="7.5" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Finance_Management_SystemModel.Product" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Finance_Management_SystemModel.Purchase" Width="1.5" PointX="5.25" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Finance_Management_SystemModel.Transaction" Width="1.5" PointX="3" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Finance_Management_SystemModel.UserBankDetail" Width="1.5" PointX="3" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Finance_Management_SystemModel.User" Width="1.5" PointX="0.75" PointY="5.875" IsExpanded="true" />
+        <AssociationConnector Association="Finance_Management_SystemModel.FK__EMICards__CardTy__46E78A0C" ManuallyRouted="false" />
+        <AssociationConnector Association="Finance_Management_SystemModel.FK__EMICards__UserId__45F365D3" ManuallyRouted="false" />
+        <AssociationConnector Association="Finance_Management_SystemModel.FK__Purchases__CardI__5070F446" ManuallyRouted="false" />
+        <AssociationConnector Association="Finance_Management_SystemModel.FK__EMIPaymen__Purch__5441852A" ManuallyRouted="false" />
+        <AssociationConnector Association="Finance_Management_SystemModel.FK__Purchases__Produ__4F7CD00D" ManuallyRouted="false" />
+        <AssociationConnector Association="Finance_Management_SystemModel.FK__Purchases__UserI__4E88ABD4" ManuallyRouted="false" />
+        <AssociationConnector Association="Finance_Management_SystemModel.FK__Transacti__UserI__5812160E" ManuallyRouted="false" />
+        <AssociationConnector Association="Finance_Management_SystemModel.FK__UserBankD__UserI__3E52440B" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="Finance_Management_SystemModel.Admin" Width="1.5" PointX="5.375" PointY="0.75" />
+        <EntityTypeShape EntityType="Finance_Management_SystemModel.UserCardApplication" Width="1.5" PointX="7.375" PointY="0.75" />
+        <AssociationConnector Association="Finance_Management_SystemModel.FK_UserCardApplications_CardType" />
+        <AssociationConnector Association="Finance_Management_SystemModel.FK_UserCardApplications_User" />
+        <EntityTypeShape EntityType="Finance_Management_SystemModel.Order" Width="1.5" PointX="10.25" PointY="3.875" />
+        <AssociationConnector Association="Finance_Management_SystemModel.FK_Orders_Products" />
+        <AssociationConnector Association="Finance_Management_SystemModel.FK_Orders_Users" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

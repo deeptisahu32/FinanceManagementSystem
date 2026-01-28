@@ -1,0 +1,80 @@
+﻿
+@model FinanceManagementSystem_Prj.Models.EMIPayment
+
+@{
+    ViewBag.Title = "Pay EMI";
+}
+
+<link href="~/Content/pay-emi.css" rel="stylesheet" />
+
+<div class="payemi-container">
+
+    <div class="payemi-card">
+
+        <!-- HEADER -->
+        <div class="payemi-header">
+            <h2>Pay EMI</h2>
+            <span class="secure-badge">🔒 Secure Payment</span>
+        </div>
+
+        <!-- EMI DETAILS -->
+        <div class="emi-details">
+            <div class="detail-row">
+                <span>Product</span>
+                <strong>@Model.Purchase.Product.ProductName</strong>
+            </div>
+
+            <div class="detail-row">
+                <span>EMI No</span>
+                <strong>@Model.EMISequence</strong>
+            </div>
+
+            <div class="detail-row highlight">
+                <span>Amount</span>
+                <strong>₹ @Model.EMIAmount</strong>
+            </div>
+
+            <div class="detail-row">
+                <span>Due Date</span>
+                <strong>@Model.DueDate.ToString("dd MMM yyyy")</strong>
+            </div>
+        </div>
+
+        <!-- PAYMENT FORM -->
+        <form method="post" action="@Url.Action("PayEMI", "Payment")">
+
+            <input type="hidden" name="emiPaymentId" value="@Model.PaymentId" />
+
+            <h4 class="section-title">Select Payment Method</h4>
+
+            <div class="payment-methods">
+
+                <label class="method">
+                    <input type="radio" name="paymentMethod" value="UPI" required />
+                    <span>📱 UPI</span>
+                </label>
+
+                <label class="method">
+                    <input type="radio" name="paymentMethod" value="Debit Card" />
+                    <span>💳 Debit Card</span>
+                </label>
+
+                <label class="method">
+                    <input type="radio" name="paymentMethod" value="Net Banking" />
+                    <span>🏦 Net Banking</span>
+                </label>
+
+            </div>
+
+            <button type="submit" class="pay-btn">
+                Pay ₹ @Model.EMIAmount
+            </button>
+
+        </form>
+
+    </div>
+
+</div>
+
+
+

@@ -1,0 +1,70 @@
+﻿.choice-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.choice-card {
+    width: 720px;
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 40px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
+}
+
+    .choice-card h2 {
+        font-size: 28px;
+        font-weight: 600;
+        margin-bottom: 30px;
+        text-align: center;
+        color: #1f2937;
+    }
+
+.option-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+}
+
+.option-card {
+    position: relative;
+    padding: 28px;
+    border-radius: 14px;
+    text-decoration: none;
+    color: #ffffff;
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+    .option-card:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 18px 35px rgba(0, 0, 0, 0.18);
+    }
+
+    .option-card h3 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .option-card p {
+        font-size: 14px;
+        opacity: 0.9;
+        line-height: 1.5;
+    }
+
+/* Primary EMI */
+.option-primary {
+    background: linear-gradient(135deg, #2563eb, #1e40af);
+}
+
+/* Early EMI */
+.option-secondary {
+    background: linear-gradient(135deg, #059669, #047857);
+}
+
+/* Icon */
+.option-icon {
+    font-size: 34px;
+    margin-bottom: 16px;
+    display: block;
+}

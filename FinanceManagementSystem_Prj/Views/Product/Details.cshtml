@@ -1,0 +1,65 @@
+﻿@model FinanceManagementSystem_Prj.Models.Product
+
+@{
+    ViewBag.Title = "Product Details";
+}
+
+<link href="~/Content/product-details.css" rel="stylesheet" />
+
+<div class="product-details-wrapper">
+
+    <div class="product-details-card">
+
+        <div class="product-details-grid">
+
+            <!-- IMAGE -->
+            <div class="product-image">
+                <img src="~/Content/ProductImages/@Model.ImageUrl"
+                     alt="@Model.ProductName" />
+            </div>
+
+            <!-- INFO -->
+            <div class="product-info">
+
+                <h1>@Model.ProductName</h1>
+
+                <div class="product-price">
+                    ₹ @Model.Price
+                </div>
+
+                <p class="product-desc">
+                    @Model.Description
+                </p>
+
+                @if (ViewBag.IsEMIAvailable)
+                {
+                    <span class="emi-badge emi-yes">
+                        ✔ EMI Available
+                    </span>
+                }
+                else
+                {
+                    <span class="emi-badge emi-no">
+                        ✖ EMI Not Available
+                    </span>
+                }
+                <a href="@Url.Action("Index","Product")" class="back-btn">
+                    ← Back to Products
+                </a>
+
+                <div class="action-section">
+                    <!-- Future buttons like Buy Now / Choose EMI can go here -->
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- BACK BUTTON AT BOTTOM -->
+    
+
+</div>
+
+

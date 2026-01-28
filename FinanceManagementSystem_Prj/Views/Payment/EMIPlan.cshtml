@@ -1,0 +1,70 @@
+﻿@model FinanceManagementSystem_Prj.Models.Product
+
+@{
+    ViewBag.Title = "EMI Plan";
+    string mode = ViewBag.Mode;
+}
+
+<link href="~/Content/emi-plan.css" rel="stylesheet" />
+
+<div class="emi-wrapper">
+
+    <div class="emi-card">
+
+        <!-- HEADER -->
+        <div class="product-header">
+            <h2>@Model.ProductName</h2>
+            <div class="product-price">₹ @Model.Price</div>
+
+            <span class="mode-badge">
+                @(mode == "EMI" ? "Pay on Due Date" : "Pay Before Due Date")
+            </span>
+        </div>
+
+        <div class="section-divider"></div>
+
+        <!-- FORM -->
+        <form method="post"
+              action="@Url.Action("CreateEMI", "Payment")"
+              class="emi-form">
+
+
+            <input type="hidden" name="productId" value="@Model.ProductId" />
+            <input type="hidden" name="paymentMode" value="@mode" />
+
+            <label>Select EMI Duration</label>
+
+            <div class="emi-action-row">
+
+                <div class="select-wrapper">
+                    <select name="emiMonths" required>
+                        <option value="3">3 Months</option>
+                        <option value="6">6 Months</option>
+                        <option value="9">9 Months</option>
+                        <option value="12">12 Months</option>
+                    </select>
+                </div>
+
+                <button type="submit" class="confirm-btn">
+                    Confirm EMI
+                </button>
+
+
+
+            </div>
+
+        </form>
+
+    </div>
+
+
+</div>
+@if (TempData["InsufficientBalance"] != null)
+{
+    <script>
+        alert("@TempData["InsufficientBalance"]");
+
+        // ✅ Redirect ONLY after clicking OK
+        window.location.href = '@Url.Action("Index", "Product")';
+    </script>
+}
