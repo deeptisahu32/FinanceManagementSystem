@@ -1,0 +1,56 @@
+﻿@model FinanceManagementSystem_Prj.ViewModels.LoginViewModel
+<link href="~/Content/login.css" rel="stylesheet" />
+
+
+<div class="login-wrapper">
+
+    <!-- LEFT PANEL -->
+    <div class="left-panel">
+        <h1>Welcome Back</h1>
+        <p>
+            Login to continue your journey <br />
+            with <b>ASP.NET MVC & Web API</b> <br /><br />
+            Manage EMI Cards securely 🚀
+        </p>
+    </div>
+
+    <!-- RIGHT PANEL -->
+    <div class="right-panel">
+
+         
+        <h2 class="form-title">User Login</h2>
+
+        @using (Html.BeginForm("Login", "Account", FormMethod.Post))
+        {
+            @Html.AntiForgeryToken()
+
+            <div class="form-box">
+                @Html.TextBoxFor(m => m.Username, new { @class = "input", placeholder = "Username" })
+                @Html.ValidationMessageFor(m => m.Username, "", new { @class = "error" })
+
+                @Html.PasswordFor(m => m.Password, new { @class = "input", placeholder = "Password" })
+                @Html.ValidationMessageFor(m => m.Password, "", new { @class = "error" })
+            </div>
+
+            <div class="btn-area">
+                <button type="submit">Login</button>
+                @Html.ValidationSummary(true, "", new { @class = "error center" })
+
+            </div>
+
+            <!-- EXTRA LINKS -->
+    <div class="form-links">
+        &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;   New user?
+        <a href="/Account/Register">Register here</a>  &nbsp;&nbsp;
+
+        <a href="@Url.Action("ForgotPassword", "Account")" class="forgot">
+            Forgot password?
+        </a>
+
+
+    </div>
+
+         }
+
+    </div>
+</div>

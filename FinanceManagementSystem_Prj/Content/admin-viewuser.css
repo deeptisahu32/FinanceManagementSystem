@@ -1,0 +1,47 @@
+﻿.profile-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 30px;
+}
+
+.profile-card {
+    background: #fff;
+    padding: 30px;
+    border-radius: 18px;
+    box-shadow: 0 12px 35px rgba(0,0,0,0.08);
+}
+
+    .profile-card h3 {
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+
+.info-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+    .info-row span {
+        color: #777;
+    }
+
+.status-card {
+    text-align: center;
+}
+
+.status {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 20px 0;
+}
+
+    .status.pending {
+        color: #f59e0b;
+    }
+
+.action-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}

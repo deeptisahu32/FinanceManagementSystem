@@ -1,0 +1,94 @@
+﻿@model IEnumerable<FinanceManagementSystem_Prj.Models.Product>
+
+<link href="~/Content/product-dashboard.css" rel="stylesheet" />        
+<script src="~/Scripts/product-dashboard.js"></script>
+
+<!-- ================= FIXED NAVBAR ================= -->
+<div class="store-topbar">
+    <div class="topbar-container">
+
+        <div class="left-section">
+            <span class="hamburger" onclick="toggleMenu()">☰</span>
+            <span class="store-logo">FinanceMS</span>
+        </div>
+
+        <div class="search-section">
+            <input type="text"
+                   id="productSearch"
+                   placeholder="Search for products..."
+                   onkeyup="searchProducts()" />
+        </div>
+
+        
+        <div class="right-section">
+            <a href="@Url.Action("Offers","Info")">Offers</a>
+            <a href="@Url.Action("EmiZone","Info")">EMI Zone</a>
+            <a href="@Url.Action("MyOrders","Order")">My Orders</a>
+        </div>
+
+
+    </div>
+</div>
+
+
+<!-- ================= SLIDE MENU (HIDDEN INITIALLY) ================= -->
+<div id="sideMenu" class="side-menu">
+    <div class="menu-header">
+        <h3>Hello, User 👋</h3>
+    </div>
+
+   
+    <ul>
+        <li><a href="@Url.Action("Dashboard","User")">👤 Profile</a></li>
+        <li><a href="@Url.Action("Index","Product")">🛍 Shop Here</a></li>
+        <li><a href="@Url.Action("MyOrders","Order")">📦 My Orders</a></li>
+        <li><a href="@Url.Action("EmiZone","Info")">💳 EMI Zone</a></li>
+        <li><a href="@Url.Action("Offers","Info")">🎁 Offers</a></li>
+        <li><a href="@Url.Action("CustomerService","Info")">📞 Customer Service</a></li>
+        <li><a href="@Url.Action("Help","Info")">❓ Help & FAQ</a></li>
+        <li class="logout">
+            <a href="@Url.Action("Logout","Account")">🚪 Logout</a>
+        </li>
+    </ul>
+
+</div>
+
+<!-- ================= PRODUCTS ================= -->
+<div class="product-section">
+    <h2>Available Products</h2>
+
+    
+    <div class="product-grid" id="productGrid">
+        @foreach (var item in Model)
+        {
+
+
+            <div class="product-card" data-name="@item.ProductName.ToLower()">
+                <!-- IMAGE -->
+                <img src="~/Content/ProductImages/@item.ImageUrl"
+                     alt="@item.ProductName"
+                     style="height:200px; width:100%; object-fit:cover;" />
+
+                <div class="card-body text-center">
+
+                <!-- PRODUCT NAME -->
+                <h3>@item.ProductName</h3>
+                <p>@item.Description</p>
+                <!-- PRICE -->
+                <p class="price">₹ @item.Price</p>
+
+                </div>
+                <div class="actions">
+                    <a href="@Url.Action("Details","Product", new { id = item.ProductId })"
+                       class="btn-outline">View Details</a>
+
+                    <a href="@Url.Action("ChoosePaymentOption","Payment", new { productId = item.ProductId })"
+                       class="btn-primary">Buy Now</a>
+                </div>
+
+
+            </div>
+    }
+   
+</div>
+    </div>

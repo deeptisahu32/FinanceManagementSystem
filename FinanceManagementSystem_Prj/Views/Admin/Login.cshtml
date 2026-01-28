@@ -1,0 +1,44 @@
+﻿@model FinanceManagementSystem_Prj.ViewModels.AdminLoginViewModel
+<link href="~/Content/admin.css" rel="stylesheet" />
+
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    ViewBag.Title = "Admin Login";
+}
+
+<div class="admin-wrapper">
+
+    <!-- LEFT PANEL -->
+    <div class="admin-left">
+        <h1>Admin Panel</h1>
+        <p>
+            Secure access for administrators only.<br />
+            Manage users and approvals.
+        </p>
+    </div>
+
+    <!-- RIGHT PANEL -->
+    <div class="admin-right">
+        <h2>Admin Login</h2>
+
+        @using (Html.BeginForm("Login", "Admin", FormMethod.Post))
+        {
+            @Html.AntiForgeryToken()
+
+            <div class="form-group">
+                @Html.TextBoxFor(m => m.Username, new { @class = "input", placeholder = "Username" })
+                @Html.ValidationMessageFor(m => m.Username)
+            </div>
+
+            <div class="form-group">
+                @Html.PasswordFor(m => m.Password, new { @class = "input", placeholder = "Password" })
+                @Html.ValidationMessageFor(m => m.Password)
+            </div>
+
+            <button type="submit" class="btn">Login</button>
+
+            @Html.ValidationSummary(true)
+        }
+    </div>
+
+</div>

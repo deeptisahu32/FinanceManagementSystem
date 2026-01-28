@@ -1,0 +1,52 @@
+﻿.emi-container {
+    max-width: 420px;
+    margin: 100px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+
+    .emi-container h2 {
+        margin-bottom: 10px;
+    }
+
+.price {
+    font-size: 22px;
+    color: #2e7d32;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.btn-emi {
+    width: 100%;
+    background: #2874f0;
+    color: white;
+    padding: 12px;
+    border-radius: 6px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+    .btn-emi:hover {
+        background: #1a5fd0;
+    }
+
+.back-link {
+    display: block;
+    margin-top: 15px;
+    text-align: center;
+}

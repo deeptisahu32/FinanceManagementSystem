@@ -1,0 +1,27 @@
+﻿@{
+    ViewBag.Title = "Help & FAQ";
+ }
+<link href="~/Content/info-pages.css" rel="stylesheet" />
+
+<div class="info-container">
+    <h2>❓ Help & FAQ</h2>
+
+    <div class="info-card">
+        <h4>How to buy on EMI?</h4>
+        <p>Select product → Buy Now → Choose EMI → Confirm</p>
+    </div>
+
+    <div class="info-card">
+        <h4>What if EMI payment fails?</h4>
+        <p>You can retry payment on the due date.</p>
+    </div>
+
+    <div class="info-card">
+        <h4>Can I cancel EMI?</h4>
+        <p>Cancellation allowed only before first EMI.</p>
+    </div>
+
+    <a href="@Url.Action("Index","Product")" class="btn-back">← Back to Shop</a>
+</div>
+
+

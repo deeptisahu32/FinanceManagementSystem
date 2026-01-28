@@ -1,0 +1,43 @@
+﻿@model IEnumerable<FinanceManagementSystem_Prj.ViewModels.PendingUserViewModel>
+
+
+@{
+    ViewBag.Title = "Pending User Approvals";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2 class="page-title">Pending User Approvals</h2>
+
+<table class="table table-hover shadow-sm">
+    <thead class="thead-dark">
+        <tr>
+            <th>Full Name</th>
+            <th>Email</th>
+            <th>Username</th>
+            <th>BankName</th>
+            <th>Account Number</th>
+            <th>IFSC Code</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td>@user.FullName</td>
+                <td>@user.Email</td>
+                <td>@user.Username</td>
+                <td>@user.BankName</td>
+                <td>@user.AccountNumber</td>
+                <td>@user.IFSCCode</td>
+                <td>
+                    <a href="@Url.Action("UserDetails", "Admin", new { id = user.UserId })"
+                       class="btn btn-primary btn-sm">
+                        View Details
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

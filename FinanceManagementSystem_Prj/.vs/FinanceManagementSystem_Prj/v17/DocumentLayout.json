@@ -1,0 +1,958 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|solutionrelative:services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|c:\\financeproject\\financemanagementsystem\\financemanagementsystem_prj\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|c:\\financeproject\\financemanagementsystem\\financemanagementsystem_prj\\views\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|solutionrelative:views\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|c:\\financeproject\\financemanagementsystem\\financemanagementsystem_prj\\models\\financemodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|solutionrelative:models\\financemodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|c:\\financeproject\\financemanagementsystem\\financemanagementsystem_prj\\viewmodels\\verifyotpviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|solutionrelative:viewmodels\\verifyotpviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|c:\\financeproject\\financemanagementsystem\\financemanagementsystem_prj\\viewmodels\\forgotpasswordphoneviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|solutionrelative:viewmodels\\forgotpasswordphoneviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|solutionrelative:services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|solutionrelative:app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\viewmodels\\adminloginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|solutionrelative:viewmodels\\adminloginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|solutionrelative:repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|solutionrelative:repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\repositories\\dbcontextwrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|solutionrelative:repositories\\dbcontextwrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|solutionrelative:interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|solutionrelative:interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|solutionrelative:interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\interfaces\\idbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|solutionrelative:interfaces\\idbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|solutionrelative:interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|solutionrelative:controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|solutionrelative:controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\controllers\\infocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|solutionrelative:controllers\\infocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\controllers\\emicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|solutionrelative:controllers\\emicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\controllers\\api\\usersapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|solutionrelative:controllers\\api\\usersapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\controllers\\api\\authapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|solutionrelative:controllers\\api\\authapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4028CDB-8797-45A4-B17C-95ED8E1B8624}|..\\FinanceManagementSystem\\FinanceManagementSystem.Tests.csproj|c:\\financeproject\\financemanagementsystem\\financemanagementsystem\\services\\userservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\content\\info-pages.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|solutionrelative:content\\info-pages.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\content\\orders.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|solutionrelative:content\\orders.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\content\\pay-emi.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|solutionrelative:content\\pay-emi.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\content\\admin.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|solutionrelative:content\\admin.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\content\\register.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|solutionrelative:content\\register.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\models\\emipayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|solutionrelative:models\\emipayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\content\\admin-dashboard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|solutionrelative:content\\admin-dashboard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\content\\product-details.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|solutionrelative:content\\product-details.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\content\\emi-plan.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|solutionrelative:content\\emi-plan.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\content\\payment-option.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|solutionrelative:content\\payment-option.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\content\\emi-dashboard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|solutionrelative:content\\emi-dashboard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\content\\emi.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|solutionrelative:content\\emi.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\content\\product-dashboard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|solutionrelative:content\\product-dashboard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\scripts\\product-dashboard.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|solutionrelative:scripts\\product-dashboard.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\content\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|solutionrelative:content\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\content\\payment-joiningfee.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|solutionrelative:content\\payment-joiningfee.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\content\\emi-card.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|solutionrelative:content\\emi-card.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\content\\user-dashboard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|solutionrelative:content\\user-dashboard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\models\\emicard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|solutionrelative:models\\emicard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\models\\usercardapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|solutionrelative:models\\usercardapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\content\\register-success.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|solutionrelative:content\\register-success.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\content\\admin-viewuser.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|solutionrelative:content\\admin-viewuser.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\content\\finance-navbar.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|solutionrelative:content\\finance-navbar.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\content\\apply-card-success.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|solutionrelative:content\\apply-card-success.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\content\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|solutionrelative:content\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\content\\auth-common.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|solutionrelative:content\\auth-common.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\content\\select-card.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|solutionrelative:content\\select-card.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|solutionrelative:app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\validators\\agevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|solutionrelative:validators\\agevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|solutionrelative:global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ForgotPassword.cshtml",
+              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Views\\Account\\ForgotPassword.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\ForgotPassword.cshtml",
+              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Views\\Account\\ForgotPassword.cshtml",
+              "RelativeToolTip": "Views\\Account\\ForgotPassword.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-28T11:18:31.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FinanceModel.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Models\\FinanceModel.edmx",
+              "RelativeDocumentMoniker": "Models\\FinanceModel.edmx",
+              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Models\\FinanceModel.edmx [Diagram1]",
+              "RelativeToolTip": "Models\\FinanceModel.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2026-01-28T11:10:09.674Z",
+              "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T17:08:50.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Services\\UserService.cs",
+              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Services\\UserService.cs",
+              "RelativeToolTip": "Services\\UserService.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAA3wEwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T17:07:19.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAC8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-28T07:46:20.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "VerifyOtpViewModel.cs",
+              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\ViewModels\\VerifyOtpViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\VerifyOtpViewModel.cs",
+              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\ViewModels\\VerifyOtpViewModel.cs",
+              "RelativeToolTip": "ViewModels\\VerifyOtpViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T10:29:15.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ForgotPasswordPhoneViewModel.cs",
+              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\ViewModels\\ForgotPasswordPhoneViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\ForgotPasswordPhoneViewModel.cs",
+              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\ViewModels\\ForgotPasswordPhoneViewModel.cs",
+              "RelativeToolTip": "ViewModels\\ForgotPasswordPhoneViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T10:28:43.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T17:05:22.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "Services\\ProductService.cs",
+              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Services\\ProductService.cs",
+              "RelativeToolTip": "Services\\ProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T16:16:28.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AgIAAMwAAAAAAAAAAAAIwBQAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T12:07:34.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AdminLoginViewModel.cs",
+              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\ViewModels\\AdminLoginViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\AdminLoginViewModel.cs",
+              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\ViewModels\\AdminLoginViewModel.cs",
+              "RelativeToolTip": "ViewModels\\AdminLoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T11:04:36.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T07:33:11.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ProductRepository.cs",
+              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "Repositories\\ProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T16:09:37.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DbContextWrapper.cs",
+              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Repositories\\DbContextWrapper.cs",
+              "RelativeDocumentMoniker": "Repositories\\DbContextWrapper.cs",
+              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Repositories\\DbContextWrapper.cs",
+              "RelativeToolTip": "Repositories\\DbContextWrapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T16:07:19.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IUserService.cs",
+              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "Interfaces\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T17:06:18.866Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "Interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T17:04:50.761Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Interfaces\\IProductService.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IProductService.cs",
+              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Interfaces\\IProductService.cs",
+              "RelativeToolTip": "Interfaces\\IProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T16:15:11.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IDbContext.cs",
+              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Interfaces\\IDbContext.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IDbContext.cs",
+              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Interfaces\\IDbContext.cs",
+              "RelativeToolTip": "Interfaces\\IDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T16:06:40.822Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Interfaces\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IProductRepository.cs",
+              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Interfaces\\IProductRepository.cs",
+              "RelativeToolTip": "Interfaces\\IProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T16:08:55.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T16:21:39.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "PaymentController.cs",
+              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Controllers\\PaymentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PaymentController.cs",
+              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Controllers\\PaymentController.cs",
+              "RelativeToolTip": "Controllers\\PaymentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-25T19:52:27.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrderController.cs",
+              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "Controllers\\OrderController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T18:33:39.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "InfoController.cs",
+              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Controllers\\InfoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\InfoController.cs",
+              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Controllers\\InfoController.cs",
+              "RelativeToolTip": "Controllers\\InfoController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBsAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T18:31:34.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "EMIController.cs",
+              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Controllers\\EMIController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EMIController.cs",
+              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Controllers\\EMIController.cs",
+              "RelativeToolTip": "Controllers\\EMIController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAA1wDIAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-25T19:56:44.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAMBAAAAAAAAAAAkwB4BAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T11:05:16.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "UsersApiController.cs",
+              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Controllers\\API\\UsersApiController.cs",
+              "RelativeDocumentMoniker": "Controllers\\API\\UsersApiController.cs",
+              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Controllers\\API\\UsersApiController.cs",
+              "RelativeToolTip": "Controllers\\API\\UsersApiController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T05:26:29.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AuthApiController.cs",
+              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Controllers\\API\\AuthApiController.cs",
+              "RelativeDocumentMoniker": "Controllers\\API\\AuthApiController.cs",
+              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Controllers\\API\\AuthApiController.cs",
+              "RelativeToolTip": "Controllers\\API\\AuthApiController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T10:27:41.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "UserServiceTests.cs",
+              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem\\Services\\UserServiceTests.cs",
+              "RelativeDocumentMoniker": "..\\FinanceManagementSystem\\Services\\UserServiceTests.cs",
+              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem\\Services\\UserServiceTests.cs",
+              "RelativeToolTip": "..\\FinanceManagementSystem\\Services\\UserServiceTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T06:59:20.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "info-pages.css",
+              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Content\\info-pages.css",
+              "RelativeDocumentMoniker": "Content\\info-pages.css",
+              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Content\\info-pages.css",
+              "RelativeToolTip": "Content\\info-pages.css",
+              "ViewState": "AgIAAHoAAAAAAAAAAADwv5sAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-01-27T18:35:13.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "orders.css",
+              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Content\\orders.css",
+              "RelativeDocumentMoniker": "Content\\orders.css",
+              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Content\\orders.css",
+              "RelativeToolTip": "Content\\orders.css",
+              "ViewState": "AgIAAEMAAAAAAAAAAADwv2QAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-01-27T18:35:41.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "pay-emi.css",
+              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Content\\pay-emi.css",
+              "RelativeDocumentMoniker": "Content\\pay-emi.css",
+              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Content\\pay-emi.css",
+              "RelativeToolTip": "Content\\pay-emi.css",
+              "ViewState": "AgIAAFgAAAAAAAAAAADwv1kAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-01-27T18:02:08.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "register.css",
+              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Content\\register.css",
+              "RelativeDocumentMoniker": "Content\\register.css",
+              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Content\\register.css",
+              "RelativeToolTip": "Content\\register.css",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAGEBAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-01-23T06:14:28.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "admin.css",
+              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Content\\admin.css",
+              "RelativeDocumentMoniker": "Content\\admin.css",
+              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Content\\admin.css",
+              "RelativeToolTip": "Content\\admin.css",
+              "ViewState": "AgIAAKAAAAAAAAAAAAAAALEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-01-23T11:28:47.063Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "EMIPayment.cs",
+              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Models\\EMIPayment.cs",
+              "RelativeDocumentMoniker": "Models\\EMIPayment.cs",
+              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Models\\EMIPayment.cs",
+              "RelativeToolTip": "Models\\EMIPayment.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAIwBoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T11:19:40.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "admin-dashboard.css",
+              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Content\\admin-dashboard.css",
+              "RelativeDocumentMoniker": "Content\\admin-dashboard.css",
+              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Content\\admin-dashboard.css",
+              "RelativeToolTip": "Content\\admin-dashboard.css",
+              "ViewState": "AgIAACIAAAAAAAAAAAAcwC4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-01-24T18:58:35.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "product-details.css",
+              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Content\\product-details.css",
+              "RelativeDocumentMoniker": "Content\\product-details.css",
+              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Content\\product-details.css",
+              "RelativeToolTip": "Content\\product-details.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-01-26T19:10:52.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "emi-plan.css",
+              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Content\\emi-plan.css",
+              "RelativeDocumentMoniker": "Content\\emi-plan.css",
+              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Content\\emi-plan.css",
+              "RelativeToolTip": "Content\\emi-plan.css",
+              "ViewState": "AgIAAJEAAAAAAAAAAAAcwK8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-01-26T18:30:43.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "payment-option.css",
+              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Content\\payment-option.css",
+              "RelativeDocumentMoniker": "Content\\payment-option.css",
+              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Content\\payment-option.css",
+              "RelativeToolTip": "Content\\payment-option.css",
+              "ViewState": "AgIAACgAAAAAAAAAAAAcwEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-01-26T18:25:24.687Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "emi-dashboard.css",
+              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Content\\emi-dashboard.css",
+              "RelativeDocumentMoniker": "Content\\emi-dashboard.css",
+              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Content\\emi-dashboard.css",
+              "RelativeToolTip": "Content\\emi-dashboard.css",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAgwIEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-01-26T07:45:25.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "emi.css",
+              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Content\\emi.css",
+              "RelativeDocumentMoniker": "Content\\emi.css",
+              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Content\\emi.css",
+              "RelativeToolTip": "Content\\emi.css",
+              "ViewState": "AgIAABUAAAAAAAAAAAAgwDMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-01-26T05:39:46.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "product-dashboard.js",
+              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Scripts\\product-dashboard.js",
+              "RelativeDocumentMoniker": "Scripts\\product-dashboard.js",
+              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Scripts\\product-dashboard.js",
+              "RelativeToolTip": "Scripts\\product-dashboard.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-01-25T14:54:11.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "product-dashboard.css",
+              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Content\\product-dashboard.css",
+              "RelativeDocumentMoniker": "Content\\product-dashboard.css",
+              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Content\\product-dashboard.css",
+              "RelativeToolTip": "Content\\product-dashboard.css",
+              "ViewState": "AgIAAOgAAAAAAAAAAAAcwPEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-01-25T14:30:27.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Site.css",
+              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Content\\Site.css",
+              "RelativeDocumentMoniker": "Content\\Site.css",
+              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Content\\Site.css",
+              "RelativeToolTip": "Content\\Site.css",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAcwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-01-25T14:03:36.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "payment-Joiningfee.css",
+              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Content\\payment-Joiningfee.css",
+              "RelativeDocumentMoniker": "Content\\payment-Joiningfee.css",
+              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Content\\payment-Joiningfee.css",
+              "RelativeToolTip": "Content\\payment-Joiningfee.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-01-25T12:41:40.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "emi-card.css",
+              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Content\\emi-card.css",
+              "RelativeDocumentMoniker": "Content\\emi-card.css",
+              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Content\\emi-card.css",
+              "RelativeToolTip": "Content\\emi-card.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-01-25T12:27:50.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "user-dashboard.css",
+              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Content\\user-dashboard.css",
+              "RelativeDocumentMoniker": "Content\\user-dashboard.css",
+              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Content\\user-dashboard.css",
+              "RelativeToolTip": "Content\\user-dashboard.css",
+              "ViewState": "AgIAAM8AAAAAAAAAAAAcwO0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-01-23T12:44:03.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "EMICard.cs",
+              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Models\\EMICard.cs",
+              "RelativeDocumentMoniker": "Models\\EMICard.cs",
+              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Models\\EMICard.cs",
+              "RelativeToolTip": "Models\\EMICard.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwCEAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-24T13:51:00.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "UserCardApplication.cs",
+              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Models\\UserCardApplication.cs",
+              "RelativeDocumentMoniker": "Models\\UserCardApplication.cs",
+              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Models\\UserCardApplication.cs",
+              "RelativeToolTip": "Models\\UserCardApplication.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-24T12:12:16.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "register-success.css",
+              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Content\\register-success.css",
+              "RelativeDocumentMoniker": "Content\\register-success.css",
+              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Content\\register-success.css",
+              "RelativeToolTip": "Content\\register-success.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-01-25T04:39:48.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "admin-viewuser.css",
+              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Content\\admin-viewuser.css",
+              "RelativeDocumentMoniker": "Content\\admin-viewuser.css",
+              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Content\\admin-viewuser.css",
+              "RelativeToolTip": "Content\\admin-viewuser.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-01-23T17:09:29.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "finance-navbar.css",
+              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Content\\finance-navbar.css",
+              "RelativeDocumentMoniker": "Content\\finance-navbar.css",
+              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Content\\finance-navbar.css",
+              "RelativeToolTip": "Content\\finance-navbar.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-01-24T09:18:58.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "apply-card-success.css",
+              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Content\\apply-card-success.css",
+              "RelativeDocumentMoniker": "Content\\apply-card-success.css",
+              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Content\\apply-card-success.css",
+              "RelativeToolTip": "Content\\apply-card-success.css",
+              "ViewState": "AgIAACYAAAAAAAAAAAAcwFAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-01-23T17:37:19.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "login.css",
+              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Content\\login.css",
+              "RelativeDocumentMoniker": "Content\\login.css",
+              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Content\\login.css",
+              "RelativeToolTip": "Content\\login.css",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAcwJwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-01-23T10:50:12.151Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "auth-common.css",
+              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Content\\auth-common.css",
+              "RelativeDocumentMoniker": "Content\\auth-common.css",
+              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Content\\auth-common.css",
+              "RelativeToolTip": "Content\\auth-common.css",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAcwCIAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-01-24T10:01:45.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "select-card.css",
+              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Content\\select-card.css",
+              "RelativeDocumentMoniker": "Content\\select-card.css",
+              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Content\\select-card.css",
+              "RelativeToolTip": "Content\\select-card.css",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAcwIkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-01-23T17:57:29.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "WebApiConfig.cs",
+              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\App_Start\\WebApiConfig.cs",
+              "RelativeDocumentMoniker": "App_Start\\WebApiConfig.cs",
+              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\App_Start\\WebApiConfig.cs",
+              "RelativeToolTip": "App_Start\\WebApiConfig.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T05:41:16.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "AgeValidator.cs",
+              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Validators\\AgeValidator.cs",
+              "RelativeDocumentMoniker": "Validators\\AgeValidator.cs",
+              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Validators\\AgeValidator.cs",
+              "RelativeToolTip": "Validators\\AgeValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T06:23:18.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Global.asax.cs",
+              "RelativeDocumentMoniker": "Global.asax.cs",
+              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Global.asax.cs",
+              "RelativeToolTip": "Global.asax.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T05:41:54.508Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

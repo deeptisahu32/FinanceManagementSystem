@@ -1,0 +1,137 @@
+﻿/* PAGE HEADER */
+.select-card-header {
+    text-align: center;
+    margin: 50px auto 30px;
+}
+
+    .select-card-header h1 {
+        font-size: 34px;
+        font-weight: 700;
+        color: #1e2a38;
+    }
+
+    .select-card-header p {
+        font-size: 16px;
+        color: #6c757d;
+        margin-top: 8px;
+    }
+
+/* INFO BANNER */
+.info-banner {
+    max-width: 1000px;
+    margin: 0 auto 40px;
+    display: flex;
+    gap: 20px;
+    background: linear-gradient(135deg, #e3f2fd, #f8fbff);
+    border-left: 6px solid #1e88e5;
+    padding: 22px;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+.info-icon {
+    font-size: 32px;
+}
+
+.info-right h4 {
+    margin: 0 0 8px;
+    color: #1e88e5;
+    font-weight: 700;
+}
+
+.info-right ul {
+    padding-left: 18px;
+    margin: 0;
+}
+
+.info-right li {
+    font-size: 14.5px;
+    margin-bottom: 6px;
+    color: #333;
+}
+
+/* CARD GRID */
+.card-type-grid {
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+/* CARD BOX */
+.card-type-box {
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 28px;
+    position: relative;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+    .card-type-box:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 20px 45px rgba(0,0,0,0.15);
+    }
+
+/* CARD BADGE */
+.card-badge {
+    position: absolute;
+    top: -14px;
+    right: 20px;
+    background: linear-gradient(135deg, #1e88e5, #42a5f5);
+    color: #fff;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+/* CARD TITLE */
+.card-type-box h2 {
+    margin-top: 10px;
+    color: #1e2a38;
+    font-size: 22px;
+}
+
+/* CARD DETAILS */
+.card-details {
+    margin: 20px 0;
+}
+
+    .card-details p {
+        display: flex;
+        justify-content: space-between;
+        font-size: 15px;
+        margin: 8px 0;
+        color: #444;
+    }
+
+    .card-details span {
+        color: #6c757d;
+    }
+
+/* APPLY BUTTON */
+.apply-btn {
+    width: 100%;
+    background: linear-gradient(135deg, #1e88e5, #42a5f5);
+    color: #fff;
+    border: none;
+    padding: 14px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+    .apply-btn:hover {
+        background: linear-gradient(135deg, #1565c0, #1e88e5);
+    }
+
+/* NO CARD MESSAGE */
+.no-card-message {
+    text-align: center;
+    margin-top: 80px;
+    color: #777;
+}

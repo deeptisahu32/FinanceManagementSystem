@@ -1,0 +1,122 @@
+﻿/* ================== PAGE BASE ================== */
+body {
+    background: #f4f7fb;
+    font-family: 'Segoe UI', system-ui, sans-serif;
+}
+
+/* ================== CONTAINER ================== */
+.payemi-container {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ================== CARD ================== */
+.payemi-card {
+    background: #fff;
+    width: 420px;
+    border-radius: 16px;
+    padding: 28px;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.12);
+}
+
+/* ================== HEADER ================== */
+.payemi-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 22px;
+}
+
+    .payemi-header h2 {
+        font-size: 22px;
+        font-weight: 700;
+    }
+
+.secure-badge {
+    font-size: 13px;
+    color: #16a34a;
+    background: #dcfce7;
+    padding: 4px 10px;
+    border-radius: 20px;
+}
+
+/* ================== DETAILS ================== */
+.emi-details {
+    background: #f9fafb;
+    border-radius: 12px;
+    padding: 16px;
+    margin-bottom: 22px;
+}
+
+.detail-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 0;
+    font-size: 14px;
+    color: #374151;
+}
+
+    .detail-row strong {
+        color: #111827;
+    }
+
+    .detail-row.highlight strong {
+        font-size: 18px;
+        color: #2563eb;
+    }
+
+/* ================== PAYMENT METHODS ================== */
+.section-title {
+    font-size: 15px;
+    margin-bottom: 12px;
+    color: #374151;
+}
+
+.payment-methods {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 22px;
+}
+
+.method {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #e5e7eb;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    background: #fff;
+}
+
+    .method input {
+        accent-color: #2563eb;
+    }
+
+    .method:hover {
+        background: #eff6ff;
+        border-color: #2563eb;
+    }
+
+/* ================== PAY BUTTON ================== */
+.pay-btn {
+    width: 100%;
+    padding: 14px;
+    border-radius: 999px;
+    border: none;
+    background: linear-gradient(135deg, #2563eb, #1e40af);
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+    .pay-btn:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 10px 25px rgba(37,99,235,0.35);
+    }

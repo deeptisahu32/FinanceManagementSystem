@@ -1,0 +1,241 @@
+﻿/* ================= RESET ================= */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f1f3f6;
+    overflow: hidden; /* 🔥 CRITICAL: page must NOT scroll */
+}
+
+/* ================= MAIN NAVBAR (FROM _Layout) ================= */
+/* height assumed 64px */
+.main-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 64px;
+    background: #0f1a24;
+    z-index: 2000;
+}
+
+/* ================= PRODUCT NAVBAR ================= */
+.store-topbar {
+    position: fixed;
+    top: 64px; /* below main navbar */
+    left: 0;
+    width: 100%;
+    height: 64px;
+    background: #2874f0;
+    z-index: 1500;
+}
+
+.topbar-container {
+    max-width: 1300px;
+    height: 100%;
+    margin: auto;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* LEFT */
+.left-section {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    color: white;
+}
+
+.hamburger {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.store-logo {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* SEARCH */
+.search-section {
+    flex: 1;
+    max-width: 520px;
+    margin: 0 30px;
+}
+
+    .search-section input {
+        width: 100%;
+        height: 38px;
+        padding: 0 14px;
+        border-radius: 4px;
+        border: none;
+        outline: none;
+    }
+
+/* RIGHT */
+.right-section a {
+    color: white;
+    margin-left: 24px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+    .right-section a:hover {
+        text-decoration: underline;
+    }
+
+/* ================= SIDE MENU ================= */
+.side-menu {
+    position: fixed;
+    top: 128px; /* below BOTH navbars */
+    left: -260px;
+    width: 260px;
+    height: calc(100% - 128px);
+    background: #ffffff;
+    box-shadow: 2px 0 15px rgba(0,0,0,0.2);
+    transition: left 0.3s ease;
+    z-index: 1600;
+}
+
+    .side-menu.active {
+        left: 0;
+    }
+
+.menu-header {
+    padding: 18px;
+    background: #2874f0;
+    color: white;
+    font-size: 16px;
+}
+
+.side-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.side-menu li {
+    border-bottom: 1px solid #eee;
+}
+
+.side-menu a {
+    display: block;
+    padding: 14px 20px;
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+
+    .side-menu a:hover {
+        background: #f1f3f6;
+    }
+
+.side-menu .logout a {
+    color: #d32f2f;
+    font-weight: 600;
+}
+
+/* ================= SCROLLABLE PRODUCT AREA ================= */
+.product-section {
+    position: absolute;
+    top: 128px; /* 🔥 EXACT NAVBAR TOTAL */
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow-y: auto; /* 🔥 ONLY THIS SCROLLS */
+    padding: 20px;
+}
+
+    /* ================= PRODUCTS ================= */
+    .product-section h2 {
+        margin-bottom: 20px;
+        font-size: 24px;
+    }
+
+.product-grid {
+    max-width: 1300px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 24px;
+}
+
+/* ================= PRODUCT CARD ================= */
+.product-card {
+    background: white;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+    .product-card:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 10px 22px rgba(0,0,0,0.15);
+    }
+
+    .product-card img {
+        width: 100%;
+        height: 180px;
+        object-fit: contain;
+        margin-bottom: 10px;
+    }
+
+    .product-card h3 {
+        font-size: 16px;
+        margin: 8px 0;
+    }
+
+    .product-card p {
+        font-size: 13px;
+        color: #555;
+    }
+
+/* PRICE */
+.price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #2e7d32;
+    margin: 10px 0;
+}
+
+/* ================= BUTTONS ================= */
+.actions {
+    display: flex;
+    gap: 10px;
+}
+
+.btn-outline {
+    flex: 1;
+    text-align: center;
+    padding: 9px 0;
+    border: 1px solid #2874f0;
+    color: #2874f0;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+    .btn-outline:hover {
+        background: #e3f2fd;
+    }
+
+.btn-primary {
+    flex: 1;
+    text-align: center;
+    padding: 9px 0;
+    background: #2874f0;
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+    .btn-primary:hover {
+        background: #1a5fd0;
+    }

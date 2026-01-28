@@ -1,0 +1,53 @@
+﻿
+@model FinanceManagementSystem_Prj.Models.Product
+
+@{
+    ViewBag.Title = "Choose Payment Option";
+}
+
+<link href="~/Content/payment-option.css" rel="stylesheet" />
+
+<div class="choice-wrapper">
+
+    <div class="choice-card">
+
+        <h2>Choose Payment Option</h2>
+
+        <div class="option-grid">
+
+            <!-- EMI ON DUE DATE -->
+            <a class="option-card option-primary"
+               href="@Url.Action("EMIPlan", "Payment",
+                    new { productId = Model.ProductId, mode = "EMI" })">
+
+                <span class="option-icon">📅</span>
+                <h3>Pay EMI On Due Date</h3>
+                <p>
+                    EMI becomes payable only on the due date.
+                    Ideal if you prefer fixed monthly payments
+                    without early deductions.
+                </p>
+            </a>
+
+            <!-- EMI BEFORE DUE DATE -->
+            <a class="option-card option-secondary"
+               href="@Url.Action("EMIPlan", "Payment",
+                    new { productId = Model.ProductId, mode = "EMIBeforeDueDate" })">
+
+                <span class="option-icon">⚡</span>
+                <h3>Pay EMI Before Due Date</h3>
+                <p>
+                    Pay EMI anytime within the monthly window.
+                    Gives flexibility to clear dues early
+                    without waiting for due date.
+                </p>
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+

@@ -1,0 +1,80 @@
+﻿
+@model IEnumerable<FinanceManagementSystem_Prj.Models.Order>
+
+@{
+    ViewBag.Title = "My Orders";
+}
+
+<link href="~/Content/orders.css" rel="stylesheet" />
+
+<div class="orders-page">
+
+    <!-- ===== TOP BAR ===== -->
+    <div class="orders-topbar">
+        <a href="@Url.Action("Index","Product")" class="back-btn">
+            ← Back
+        </a>
+
+        <h2>My Orders</h2>
+    </div>
+
+    <!-- ===== ORDERS CARD ===== -->
+    <div class="orders-card">
+
+        <table class="orders-table">
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Amount</th>
+                    <th>Payment</th>
+                    <th>EMI</th>
+                    <th>Date</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                @if (!Model.Any())
+                {
+                    <tr>
+                        <td colspan="6" class="no-orders">
+                            You haven’t placed any orders yet.
+                        </td>
+                    </tr>
+                }
+                else
+                {
+                    foreach (var order in Model)
+                    {
+                        <tr>
+                            <td>@order.Product.ProductName</td>
+
+                            <td class="amount">
+                                ₹ @order.OrderAmount
+                            </td>
+
+                            <td>@order.PaymentMode</td>
+
+                            <td>
+                                @(order.EmiDuration == null
+                                    ? "-"
+                                    : order.EmiDuration + " Months")
+                            </td>
+
+                            <td>
+                                @order.OrderDate.ToString("dd MMM yyyy")
+                            </td>
+
+                            <td>
+                                <span class="status">
+                                    @order.OrderStatus
+                                </span>
+                            </td>
+                        </tr>
+                    }
+                }
+            </tbody>
+        </table>
+
+    </div>
+</div>

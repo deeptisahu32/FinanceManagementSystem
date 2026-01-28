@@ -1,0 +1,121 @@
+﻿ 
+
+@{
+    ViewBag.Title = "User Dashboard";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<link href="~/Content/user-dashboard.css" rel="stylesheet" />
+
+<div class="user-dashboard">
+
+    <!-- ================= HEADER ================= -->
+    <div class="dashboard-header">
+        <div>
+            <h1>Welcome, @ViewBag.Username 👋</h1>
+            <p>
+                Account Status:
+                <span class="status-approved">Approved</span>
+            </p>
+        </div>
+    </div>
+
+    <!-- ================= ALERT MESSAGES ================= -->
+    @if (TempData["Success"] != null)
+    {
+        <div class="alert alter-success">
+            @TempData["Success"]
+        </div>
+    }
+
+    @if (TempData["Error"] != null)
+    {
+        <div class="alert alert-danger">
+            @TempData["Error"]
+        </div>
+    }
+
+    <!-- ================= EMI CARD STATUS ================= -->
+    @if (ViewBag.CardStatus != null)
+    {
+            <div class="card-status-box">
+                <strong>EMI Card Status:</strong>
+
+           
+                @if (ViewBag.CardStatus == "PendingAdminApproval")
+                {
+                    <div class="status pending">
+                        ⏳ Pending Admin Approval
+                    </div>
+                }
+                else if (ViewBag.CardStatus == "JoiningFeeRequested")
+                {
+                    <div class="status approved">
+                        💰 Joining Fee Requested
+                        <a href="@Url.Action("PayJoiningFee","User")"
+                           class="pay-btn">
+                            Pay Joining Fee
+                        </a>
+                    </div>
+                }
+                else if (ViewBag.CardStatus == "JoiningFeePaid")
+                {
+                    <div class="status pending">
+                        ⏳ Payment done, waiting for final approval
+                    </div>
+                }
+                else if (ViewBag.CardStatus == "CardIssued")
+                {
+                    <div class="status success">
+                        🎉 EMI Card Activated
+                    </div>
+                }
+
+            </div>
+    }
+
+
+
+        </div>
+    
+    <br />
+
+    <!-- ================= QUICK ACTION CARDS ================= -->
+    <div class="card-grid">
+
+        <div class="dashboard-card blue">
+            <h2>💳 EMI Card</h2>
+            <p>Apply and manage your EMI card</p>
+            <a href="@Url.Action("ApplyEMICard", "User")" class="card-btn">
+                Apply EMI Card
+            </a>
+        </div>
+
+        <div class="dashboard-card purple">
+            <h2>🛒 Products</h2>
+            <p>Browse products eligible for EMI</p>
+            <a href="@Url.Action("Index","Product")" class="card-btn">View Products</a>
+        </div>
+
+        <div class="dashboard-card green">
+            <h2>📆 EMI Payments</h2>
+            <p>Track and pay your EMIs</p>
+            <a href="@Url.Action("MyEMIs", "User")" class="card-btn">
+                View EMIs
+            </a>
+
+        </div>
+
+        <div class="dashboard-card red">
+            <h2>🚪 Logout</h2>
+            <p>Securely logout from account</p>
+            <a href="@Url.Action("Logout","Account")"
+               class="card-btn logout">
+                Logout
+            </a>
+        </div>
+
+    </div>
+
+</div>
+

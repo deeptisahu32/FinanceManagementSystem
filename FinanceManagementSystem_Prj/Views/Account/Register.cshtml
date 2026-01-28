@@ -1,0 +1,88 @@
+﻿@model FinanceManagementSystem_Prj.ViewModels.RegisterViewModel
+<link href="~/Content/register.css" rel="stylesheet" />
+
+<div class="register-container">
+
+    <!-- LEFT PANEL -->
+    <div class="left-panel">
+        <div class="welcome-box">
+            <h1>Welcome</h1>
+            <p>Apply for your EMI Card securely</p>
+        </div>
+    </div>
+
+    <!-- RIGHT PANEL -->
+    <div class="right-panel">
+        <h2 class="title">Apply for EMI Card</h2>
+
+        @using (Html.BeginForm("Register", "Account", FormMethod.Post))
+        {
+            @Html.AntiForgeryToken()
+
+            @Html.ValidationSummary(true, "", new { @class = "error center" })
+
+            <h3 class="section-title">Personal Details</h3>
+            <div class="form-grid">
+                @Html.TextBoxFor(m => m.FullName, new { @class = "input", placeholder = "Full Name *" })
+                @Html.ValidationMessageFor(m => m.FullName, "", new { @class = "error" })
+
+                @Html.TextBoxFor(m => m.Email, new { @class = "input", placeholder = "Email *" })
+                @Html.ValidationMessageFor(m => m.Email, "", new { @class = "error" })
+
+                @Html.TextBoxFor(m => m.Phone, new { @class = "input", placeholder = "Phone *" })
+                @Html.ValidationMessageFor(m => m.Phone, "", new { @class = "error" })
+
+                @Html.TextBoxFor(m => m.Username, new { @class = "input", placeholder = "Username *" })
+                @Html.ValidationMessageFor(m => m.Username, "", new { @class = "error" })
+
+                @Html.PasswordFor(m => m.Password, new { @class = "input", placeholder = "Password *" })
+                @Html.ValidationMessageFor(m => m.Password, "", new { @class = "error" })
+
+                @Html.PasswordFor(m => m.ConfirmPassword, new { @class = "input", placeholder = "Confirm Password *" })
+                @Html.ValidationMessageFor(m => m.ConfirmPassword, "", new { @class = "error" })
+
+                @Html.TextBoxFor(m => m.DOB, new { type = "date", @class = "input", max = DateTime.Now.AddYears(-18).ToString("yyyy-MM-dd") })
+                @Html.ValidationMessageFor(m => m.DOB, "", new { @class = "error" })
+
+                @Html.TextBoxFor(m => m.Address, new { @class = "input", placeholder = "Address *" })
+                @Html.ValidationMessageFor(m => m.Address, "", new { @class = "error" })
+            </div>
+
+            <h3 class="section-title">Bank Details</h3>
+            <div class="form-grid">
+                @Html.TextBoxFor(m => m.BankName, new { @class = "input", placeholder = "Bank Name *" })
+                @Html.ValidationMessageFor(m => m.BankName, "", new { @class = "error" })
+
+                @Html.TextBoxFor(m => m.AccountNumber, new { @class = "input", placeholder = "Account Number *" })
+                @Html.ValidationMessageFor(m => m.AccountNumber, "", new { @class = "error" })
+
+                @Html.TextBoxFor(m => m.IFSCCode, new { @class = "input full", placeholder = "IFSC Code *" })
+                @Html.ValidationMessageFor(m => m.IFSCCode, "", new { @class = "error" })
+            </div>
+
+            <div class="btn-area">
+                <button type="submit" class="submit-btn">Register</button>
+            </div>
+
+            <div class="form-links">
+                Already have an account?
+                <a href="/Account/Login">Login</a>
+            </div>
+        }
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

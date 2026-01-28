@@ -1,0 +1,70 @@
+﻿@{
+    ViewBag.Title = "Pay Joining Fee";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<link href="~/Content/payment-Joiningfee.css" rel="stylesheet" />
+
+<div class="checkout-container">
+
+    <form method="post" action="@Url.Action("PayJoiningFeeConfirm","User")">
+
+        <div class="checkout-card">
+
+            <!-- LEFT -->
+            <div class="checkout-left">
+                <h2>Payment Method</h2>
+                <p>Select a method to complete EMI card activation</p>
+
+                <label class="pay-option">
+                    <span>UPI (GPay / PhonePe / Paytm)</span>
+                    <input type="radio" name="paymentMethod" required />
+                </label>
+
+                <label class="pay-option">
+                    <span>Debit / Credit Card</span>
+                    <input type="radio" name="paymentMethod" />
+                </label>
+
+                <label class="pay-option">
+                    <span>Net Banking</span>
+                    <input type="radio" name="paymentMethod" />
+                </label>
+            </div>
+
+            <!-- RIGHT -->
+            <div class="checkout-right">
+                <div class="summary-title">Payment Summary</div>
+
+                <div class="summary-row">
+                    <span>Joining Fee</span>
+                    <span>₹2,000</span>
+                </div>
+
+                <div class="summary-row">
+                    <span>Processing Fee</span>
+                    <span>₹0</span>
+                </div>
+
+                <div class="summary-row summary-total">
+                    <span>Total Payable</span>
+                    <span>₹2,000</span>
+                </div>
+
+                <button type="submit" class="pay-now-btn">
+                    Pay ₹2,000
+                </button>
+
+                <div class="secure-text">
+                    🔒 100% Secure • PCI-DSS Compliant
+                </div>
+            </div>
+
+        </div>
+
+    </form>
+
+</div>
+
+
+

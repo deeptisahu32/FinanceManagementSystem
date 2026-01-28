@@ -1,0 +1,209 @@
+﻿@model IEnumerable<FinanceManagementSystem_Prj.Models.EMIPayment>
+
+@{
+
+    ViewBag.Title = "My EMIs";
+
+    DateTime today = ViewBag.Today ?? DateTime.Today;
+
+}
+
+<link href="~/Content/emi-dashboard.css" rel="stylesheet" />
+
+@{
+
+    //  SEQUENTIAL EMI RULE
+
+    int? firstPendingEmiId = Model?
+
+        .Where(e => e.PaymentStatus == "Pending")
+
+        .OrderBy(e => e.EMISequence)
+
+        .Select(e => (int?)e.PaymentId)
+
+        .FirstOrDefault();
+
+}
+
+<div class="emi-container">
+    @*================= EMI CARD SUMMARY =================*@
+    @if (Model != null && Model.Any())
+
+    {
+
+        var card = Model.First().Purchase.EMICard;
+
+        <div class="card-summary">
+            <h3>💳 EMI Card Summary</h3>
+
+            <div class="card-stats">
+                <div>
+                    <span>Total Limit</span>
+                    <strong>₹ @card.CreditLimit</strong>
+                </div>
+
+                <div class="used">
+                    <span>Used</span>
+                    <strong>₹ @card.UsedLimit</strong>
+                </div>
+
+                <div class="available">
+                    <span>Available</span>
+                    <strong>₹ @card.AvailableLimit</strong>
+                </div>
+            </div>
+        </div>
+
+    }
+
+    else
+
+    {
+        <div class="info-box">
+
+            You don’t have any EMI purchases yet.
+        </div>
+
+    }
+    @*================= EMI SCHEDULE ================= *@
+    <h2 class="section-title">📆 EMI Schedule</h2>
+
+    <table class="emi-table">
+        <thead>
+            <tr>
+                <th>Product</th>
+                <th>EMI No</th>
+                <th>Amount</th>
+                <th>Due Date</th>
+                <th>Status</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+
+        <tbody>
+
+            @*@foreach (var emi in Model.OrderBy(e => e.DueDate))*@
+            @foreach (var emi in Model
+            .OrderBy(e => e.Purchase.Product.ProductName)
+            .ThenBy(e => e.Purchase.PurchaseDate)
+            .ThenBy(e => e.EMISequence))
+
+
+            {
+
+                bool isPayable = false;
+
+                if (emi.PaymentStatus == "Pending" &&
+
+                emi.PaymentId == firstPendingEmiId)
+
+                {
+
+
+                    DateTime purchaseDate =
+
+                    emi.Purchase?.PurchaseDate ?? today;
+
+
+                    if (emi.PaymentMode == "EMI")
+
+                    {
+
+                        isPayable = today >= emi.DueDate.Date;
+
+                    }
+
+                    else if (emi.PaymentMode == "EMIBeforeDueDate")
+                    {
+                        DateTime emiWindowStart =
+                        purchaseDate.Date.AddMonths(emi.EMISequence - 1);
+
+                        DateTime emiWindowEnd =
+                        purchaseDate.Date.AddMonths(emi.EMISequence);
+
+                        isPayable =
+                        today >= emiWindowStart &&
+                        today < emiWindowEnd;
+                    }
+
+
+                }
+
+                <tr>
+                    <td>@emi.Purchase.Product.ProductName</td>
+                    <td>EMI @emi.EMISequence</td>
+                    <td class="amount">₹ @emi.EMIAmount</td>
+                    <td>@emi.DueDate.ToString("dd-MMM-yyyy")</td>
+
+                    <td>
+
+                        @if (emi.PaymentStatus == "Paid")
+
+                        {
+                            <span class="badge paid">Paid</span>
+
+                        }
+
+                        else if (isPayable)
+
+                        {
+                            <span class="badge due">Due</span>
+
+                        }
+
+                        else
+
+                        {
+                            <span class="badge upcoming">Upcoming</span>
+
+                        }
+                    </td>
+
+                    <td>
+
+            @if (isPayable)
+
+            {
+                <a href="@Url.Action("PayEMI", "Payment", new { emiPaymentId = emi.PaymentId })"
+                   class="btn-pay">
+
+                    Pay EMI
+                </a>
+
+            }
+
+            else if (emi.PaymentStatus == "Paid")
+
+            {
+                <span class="paid-check">✔</span>
+
+            }
+
+            else
+
+            {
+                <span class="lock">🔒</span>
+
+            }
+        </td>
+                
+                </tr>
+
+            }
+        </tbody>
+    </table>
+
+</div>
+
+
+@if (TempData["Success"] != null)
+{
+    <script>alert("@TempData["Success"]");</script>
+}
+
+@if (TempData["Error"] != null)
+{
+    <script>alert("@TempData["Error"]");</script>
+}
+

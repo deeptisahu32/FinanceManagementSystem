@@ -1,0 +1,36 @@
+﻿
+@model FinanceManagementSystem_Prj.Models.Product
+@{
+    ViewBag.Title = "Buy on EMI";
+}
+<link href="~/Content/emi.css" rel="stylesheet" />
+
+<div class="emi-container">
+    <h2>Buy @Model.ProductName on EMI</h2>
+
+    <p class="price">₹ @Model.Price</p>
+
+    <form method="post" action="@Url.Action("ConfirmEMI","Payment")">
+        <input type="hidden" name="productId" value="@Model.ProductId" />
+
+        <label>Select EMI Duration</label>
+        <select name="emiMonths" required>
+            <option value="3">3 Months</option>
+            <option value="6">6 Months</option>
+            <option value="9">9 Months</option>
+            <option value="12">12 Months</option>
+        </select>
+
+        <button type="submit" class="btn-primary">
+            Confirm EMI
+        </button>
+    </form>
+
+
+    <a href="@Url.Action("Index","Product")" class="back-link">
+        ← Back to Products
+    </a>
+</div>
+
+
+

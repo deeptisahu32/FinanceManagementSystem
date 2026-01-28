@@ -1,0 +1,101 @@
+﻿/* ===== PAGE WRAPPER ===== */
+.orders-page {
+    padding: 30px;
+    background: #f4f6f9;
+    min-height: 80vh;
+    font-family: "Segoe UI", sans-serif;
+}
+
+/* ===== TOP BAR ===== */
+.orders-topbar {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 20px;
+}
+
+    .orders-topbar h2 {
+        font-size: 22px;
+        font-weight: 600;
+        color: #1f2937;
+    }
+
+/* ===== SMALL BACK BUTTON ===== */
+.back-btn {
+    font-size: 13px;
+    padding: 6px 12px;
+    border-radius: 6px;
+    background: #e5e7eb;
+    color: #111827;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+    .back-btn:hover {
+        background: #d1d5db;
+    }
+
+/* ===== CARD ===== */
+.orders-card {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 18px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+/* ===== TABLE ===== */
+.orders-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+    /* ===== HEADER ===== */
+    .orders-table thead {
+        background: #374151;
+    }
+
+        .orders-table thead th {
+            color: #ffffff;
+            text-align: left;
+            padding: 12px;
+            font-size: 13px;
+            font-weight: 600;
+        }
+
+    /* ===== ROWS ===== */
+    .orders-table tbody tr {
+        border-bottom: 1px solid #e5e7eb;
+    }
+
+        .orders-table tbody tr:nth-child(even) {
+            background: #f9fafb;
+        }
+
+    .orders-table td {
+        padding: 12px;
+        font-size: 14px;
+        color: #374151;
+    }
+
+/* ===== AMOUNT ===== */
+.amount {
+    font-weight: 600;
+    color: #047857;
+}
+
+/* ===== STATUS ===== */
+.status {
+    padding: 4px 10px;
+    border-radius: 12px;
+    background: #dcfce7;
+    color: #166534;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+/* ===== EMPTY ===== */
+.no-orders {
+    text-align: center;
+    padding: 20px;
+    color: #6b7280;
+}
