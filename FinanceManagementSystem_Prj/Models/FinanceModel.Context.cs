@@ -36,5 +36,6 @@ namespace FinanceManagementSystem_Prj.Models
         public virtual DbSet<Admin> Admins { get; set; }
         public virtual DbSet<UserCardApplication> UserCardApplications { get; set; }
         public virtual DbSet<Order> Orders { get; set; }
+        public virtual DbSet<UserOtp> UserOtps { get; set; }
     }
 }

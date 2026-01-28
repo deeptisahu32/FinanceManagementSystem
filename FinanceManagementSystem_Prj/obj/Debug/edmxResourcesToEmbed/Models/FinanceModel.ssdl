@@ -117,6 +117,17 @@
     <Property Name="Status" Type="varchar" MaxLength="20" />
     <Property Name="AppliedOn" Type="datetime" />
   </EntityType>
+  <EntityType Name="UserOtp">
+    <Key>
+      <PropertyRef Name="OtpId" />
+    </Key>
+    <Property Name="OtpId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserId" Type="int" Nullable="false" />
+    <Property Name="Email" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="OtpCode" Type="varchar" MaxLength="6" Nullable="false" />
+    <Property Name="ExpiryTime" Type="datetime" Nullable="false" />
+    <Property Name="IsVerified" Type="bit" />
+  </EntityType>
   <EntityType Name="Users">
     <Key>
       <PropertyRef Name="UserId" />
@@ -360,6 +371,20 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
+  <Association Name="FK_UserOtp_User">
+    <End Role="Users" Type="Self.Users" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="UserOtp" Type="Self.UserOtp" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="UserOtp">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
   <EntityContainer Name="Finance_Management_SystemModelStoreContainer">
     <EntitySet Name="Admins" EntityType="Self.Admins" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="CardTypes" EntityType="Self.CardTypes" Schema="dbo" store:Type="Tables" />
@@ -371,6 +396,7 @@
     <EntitySet Name="Transactions" EntityType="Self.Transactions" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="UserBankDetails" EntityType="Self.UserBankDetails" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="UserCardApplications" EntityType="Self.UserCardApplications" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UserOtp" EntityType="Self.UserOtp" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
     <AssociationSet Name="FK__EMICards__CardTy__46E78A0C" Association="Self.FK__EMICards__CardTy__46E78A0C">
       <End Role="CardTypes" EntitySet="CardTypes" />
@@ -443,6 +469,10 @@
     <AssociationSet Name="FK_UserCardApplications_UserId" Association="Self.FK_UserCardApplications_UserId">
       <End Role="Users" EntitySet="Users" />
       <End Role="UserCardApplications" EntitySet="UserCardApplications" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UserOtp_User" Association="Self.FK_UserOtp_User">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="UserOtp" EntitySet="UserOtp" />
     </AssociationSet>
   </EntityContainer>
 </Schema>

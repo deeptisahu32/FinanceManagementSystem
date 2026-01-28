@@ -208,6 +208,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>FinanceModel.edmx</DependentUpon>
     </Compile>
+    <Compile Include="Models\FinanceModel1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FinanceModel.edmx</DependentUpon>
+    </Compile>
     <Compile Include="Models\Order.cs">
       <DependentUpon>FinanceModel.tt</DependentUpon>
     </Compile>
@@ -229,6 +234,9 @@
     <Compile Include="Models\UserCardApplication.cs">
       <DependentUpon>FinanceModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\UserOtp.cs">
+      <DependentUpon>FinanceModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\DbContextWrapper.cs" />
     <Compile Include="Repositories\ProductRepository.cs" />
@@ -237,11 +245,13 @@
     <Compile Include="Services\UserService.cs" />
     <Compile Include="Validators\AgeValidator.cs" />
     <Compile Include="ViewModels\AdminLoginViewModel.cs" />
+    <Compile Include="ViewModels\ForgotPasswordPhoneViewModel.cs" />
     <Compile Include="ViewModels\ForgotPasswordViewModel.cs" />
     <Compile Include="ViewModels\LoginViewModel.cs" />
     <Compile Include="ViewModels\PendingUserViewModel.cs" />
     <Compile Include="ViewModels\RegisterViewModel.cs" />
     <Compile Include="ViewModels\ResetPasswordViewModel.cs" />
+    <Compile Include="ViewModels\VerifyOtpViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\admin-dashboard.css" />
@@ -315,7 +325,7 @@
     <Content Include="Scripts\bootstrap.min.js" />
     <EntityDeploy Include="Models\FinanceModel.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>FinanceModel.Designer.cs</LastGenOutput>
+      <LastGenOutput>FinanceModel1.Designer.cs</LastGenOutput>
     </EntityDeploy>
     <Content Include="Models\FinanceModel.edmx.diagram">
       <DependentUpon>FinanceModel.edmx</DependentUpon>

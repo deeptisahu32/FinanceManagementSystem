@@ -119,6 +119,7 @@
     <NavigationProperty Name="UserBankDetails" Relationship="Self.FK__UserBankD__UserI__3E52440B" FromRole="Users" ToRole="UserBankDetails" />
     <NavigationProperty Name="UserCardApplications" Relationship="Finance_Management_SystemModel.FK_UserCardApplications_User" FromRole="User" ToRole="UserCardApplication" />
     <NavigationProperty Name="Orders" Relationship="Finance_Management_SystemModel.FK_Orders_Users" FromRole="User" ToRole="Order" />
+    <NavigationProperty Name="UserOtps" Relationship="Finance_Management_SystemModel.FK_UserOtp_User" FromRole="User" ToRole="UserOtp" />
   </EntityType>
   <Association Name="FK__EMICards__CardTy__46E78A0C">
     <End Role="CardTypes" Type="Self.CardType" Multiplicity="1" />
@@ -276,6 +277,11 @@
       <End Role="User" EntitySet="Users" />
       <End Role="Order" EntitySet="Orders" />
     </AssociationSet>
+    <EntitySet Name="UserOtps" EntityType="Finance_Management_SystemModel.UserOtp" />
+    <AssociationSet Name="FK_UserOtp_User" Association="Finance_Management_SystemModel.FK_UserOtp_User">
+      <End Role="User" EntitySet="Users" />
+      <End Role="UserOtp" EntitySet="UserOtps" />
+    </AssociationSet>
   </EntityContainer>
   <EntityType Name="Admin">
     <Key>
@@ -357,6 +363,32 @@
         <PropertyRef Name="UserId" />
       </Principal>
       <Dependent Role="Order">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="UserOtp">
+    <Key>
+      <PropertyRef Name="OtpId" />
+    </Key>
+    <Property Name="OtpId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserId" Type="Int32" Nullable="false" />
+    <Property Name="Email" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="OtpCode" Type="String" Nullable="false" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Name="ExpiryTime" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="IsVerified" Type="Boolean" />
+    <NavigationProperty Name="User" Relationship="Finance_Management_SystemModel.FK_UserOtp_User" FromRole="UserOtp" ToRole="User" />
+  </EntityType>
+  <Association Name="FK_UserOtp_User">
+    <End Type="Finance_Management_SystemModel.User" Role="User" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="Finance_Management_SystemModel.UserOtp" Role="UserOtp" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="UserOtp">
         <PropertyRef Name="UserId" />
       </Dependent>
     </ReferentialConstraint>

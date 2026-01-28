@@ -28,6 +28,8 @@
         <EntityTypeShape EntityType="Finance_Management_SystemModel.Order" Width="1.5" PointX="10.25" PointY="3.875" />
         <AssociationConnector Association="Finance_Management_SystemModel.FK_Orders_Products" />
         <AssociationConnector Association="Finance_Management_SystemModel.FK_Orders_Users" />
+        <EntityTypeShape EntityType="Finance_Management_SystemModel.UserOtp" Width="1.5" PointX="3" PointY="15.875" />
+        <AssociationConnector Association="Finance_Management_SystemModel.FK_UserOtp_User" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

@@ -23,6 +23,7 @@ namespace FinanceManagementSystem_Prj.Models
             this.UserBankDetails = new HashSet<UserBankDetail>();
             this.UserCardApplications = new HashSet<UserCardApplication>();
             this.Orders = new HashSet<Order>();
+            this.UserOtps = new HashSet<UserOtp>();
         }
     
         public int UserId { get; set; }
@@ -48,5 +49,7 @@ namespace FinanceManagementSystem_Prj.Models
         public virtual ICollection<UserCardApplication> UserCardApplications { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Order> Orders { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<UserOtp> UserOtps { get; set; }
     }
 }

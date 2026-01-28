@@ -1,6 +1,3 @@
-
-
-
 Create database Finance_Management_System
 
 CREATE TABLE Users (
@@ -47,6 +44,15 @@ CREATE TABLE CardTypes (
 ALTER TABLE CardTypes
 ADD IsActive BIT  NULL DEFAULT 1;
 
+INSERT INTO CardTypes (CardTypeName, CardLimit, JoiningFee)
+
+VALUES
+
+('Gold', 40000, 1000),
+
+('Titanium', 80000, 2000);
+
+
 CREATE TABLE EMICards (
     CardId INT PRIMARY KEY IDENTITY(1,1),
     UserId INT NOT NULL UNIQUE FOREIGN KEY REFERENCES Users(UserId),
@@ -78,6 +84,23 @@ ALTER COLUMN CardNumber VARCHAR(100);
     );
     ALTER TABLE Products
 add  Category VARCHAR(50);
+
+
+CREATE TABLE UserOtp
+(
+    OtpId INT IDENTITY PRIMARY KEY,
+    UserId INT NOT NULL,
+    Email VARCHAR(100) NOT NULL,
+    OtpCode VARCHAR(6) NOT NULL,
+    ExpiryTime DATETIME NOT NULL,
+    IsVerified BIT DEFAULT 0,
+
+    CONSTRAINT FK_UserOtp_User
+        FOREIGN KEY (UserId)
+        REFERENCES Users(UserId)
+        ON DELETE CASCADE
+);
+
 
 
 
@@ -159,6 +182,7 @@ CREATE TABLE Orders
     AppliedOn DATETIME DEFAULT GETDATE()
 );
 
+
 ALTER TABLE UserCardApplications
 ADD CONSTRAINT FK_UserCardApplications_User
 FOREIGN KEY (UserId)
@@ -170,13 +194,7 @@ ADD CONSTRAINT FK_UserCardApplications_CardType
 FOREIGN KEY (CardTypeId)
 REFERENCES CardTypes(CardTypeId);
 
-INSERT INTO CardTypes (CardTypeName, CardLimit, JoiningFee)
 
-VALUES
-
-('Gold', 40000, 1000),
-
-('Titanium', 80000, 2000);
 
  
 INSERT INTO Products (ProductName, Description, Price, ImageUrl, IsActive)
@@ -213,6 +231,8 @@ VALUES
  
    select * from Users 
 
+   select * from UserOtp
+
     select * from Admins
 
     select * from CardTypes
@@ -234,4 +254,3 @@ VALUES
     select * from UserCardApplications
 
   
-                 

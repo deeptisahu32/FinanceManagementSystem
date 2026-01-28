@@ -10,6 +10,8 @@ using System.Text;
 using System.Web;
 using System.Web.Mvc;
 using System.Web.Security;
+using System.Net;
+using System.Net.Mail;
 
 
 
@@ -132,11 +134,19 @@ namespace FinanceManagementSystem_Prj.Controllers
 
             return RedirectToAction("ResetPassword", new { id = user.UserId });
         }
-        // For Reset Password
+
+
+
+
+
+
+        //For Reset Password
         public ActionResult ResetPassword(int id)
         {
             return View(new ResetPasswordViewModel { UserId = id });
         }
+        
+
 
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -155,6 +165,11 @@ namespace FinanceManagementSystem_Prj.Controllers
             TempData["Success"] = "Password reset successfully.";
             return RedirectToAction("Login");
         }
+
+       
+
+        
+
         [HttpGet]
         public ActionResult Logout()
         {
