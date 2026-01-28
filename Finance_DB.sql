@@ -15,7 +15,16 @@ CREATE TABLE Users (
     IsActive BIT DEFAULT 0,
     CreatedDate DATETIME DEFAULT GETDATE()
 );
- 
+
+ CREATE TABLE Admins (
+    AdminId INT IDENTITY(1,1) PRIMARY KEY,
+    Username VARCHAR(50) NOT NULL UNIQUE,
+    PasswordHash VARCHAR(255) NOT NULL,
+    CreatedDate DATETIME DEFAULT GETDATE(),
+ );
+
+ INSERT INTO Admins (Username, PasswordHash)
+VALUES ('admin', 'admin123');
  
  CREATE TABLE UserBankDetails (
     BankDetailId INT PRIMARY KEY IDENTITY(1,1),
@@ -26,6 +35,7 @@ CREATE TABLE Users (
     CreatedDate DATETIME DEFAULT GETDATE()
 );
 
+  
 
 CREATE TABLE CardTypes (
     CardTypeId INT PRIMARY KEY IDENTITY(1,1),
@@ -34,6 +44,8 @@ CREATE TABLE CardTypes (
     JoiningFee DECIMAL(10,2) NOT NULL
 );
 
+ALTER TABLE CardTypes
+ADD IsActive BIT  NULL DEFAULT 1;
 
 CREATE TABLE EMICards (
     CardId INT PRIMARY KEY IDENTITY(1,1),
@@ -221,33 +233,5 @@ VALUES
 
     select * from UserCardApplications
 
- 
- 
-                alter table Orders add Constraint FK_Orders_UserId foreign key (UserId )references Users (UserId) on delete cascade
-                alter table EMICards add Constraint FK_EMICards_UserId foreign key (UserId )references Users (UserId) on delete cascade
-                alter table  Purchases add Constraint FK_Purchases_UserId foreign key (UserId )references Users (UserId) on delete cascade
-                alter table  Transactions add Constraint FK_Transactions_UserId foreign key (UserId )references Users (UserId) on delete cascade
-                alter table  UserBankDetails add Constraint FK_UserBankDetails_UserId foreign key (UserId )references Users (UserId) on delete cascade
-                alter table  UserCardApplications add Constraint FK_UserCardApplications_UserId foreign key (UserId )references Users (UserId) on delete cascade
-
-                delete from EMIPayments
-                delete from Orders
-                delete from Purchases
-                delete from Transactions
-                delete from UserBankDetails
-                delete from UserCardApplications
-                delete from Users
-
-                select * from EMIPayments
-                select * from Users
-                select * from UserCardApplications
-                select * from UserBankDetails
-                select * from Transactions
-                select * from Purchases
-                select * from Orders
-                select * from Admins
-                select * from CardTypes
-                select * from Products
-                select * from EMICards
-
-                
+  
+                 

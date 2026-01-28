@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\models\\financemodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|solutionrelative:models\\financemodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|c:\\financeproject\\financemanagementsystem\\financemanagementsystem_prj\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -11,7 +19,7 @@
       "RelativeMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|solutionrelative:services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|c:\\financeproject\\financemanagementsystem\\financemanagementsystem_prj\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|solutionrelative:app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -83,10 +91,6 @@
       "RelativeMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\controllers\\api\\usersapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|solutionrelative:controllers\\api\\usersapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -108,10 +112,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\content\\pay-emi.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|solutionrelative:content\\pay-emi.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\models\\financemodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
-      "RelativeMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|solutionrelative:models\\financemodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5B8D4AAE-11F1-45E2-AA0D-A74CF40874DF}|FinanceManagementSystem_Prj.csproj|C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\content\\admin.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -229,7 +229,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -237,7 +237,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Views\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
@@ -250,46 +250,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RouteConfig.cs",
-              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\App_Start\\RouteConfig.cs",
-              "RelativeDocumentMoniker": "App_Start\\RouteConfig.cs",
-              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\App_Start\\RouteConfig.cs",
-              "RelativeToolTip": "App_Start\\RouteConfig.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-28T07:33:11.088Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "AdminLoginViewModel.cs",
-              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\ViewModels\\AdminLoginViewModel.cs",
-              "RelativeDocumentMoniker": "ViewModels\\AdminLoginViewModel.cs",
-              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\ViewModels\\AdminLoginViewModel.cs",
-              "RelativeToolTip": "ViewModels\\AdminLoginViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-23T11:04:36.723Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "Services\\UserService.cs",
-              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Services\\UserService.cs",
-              "RelativeToolTip": "Services\\UserService.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAgwCAAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-22T17:07:19.627Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "ProductService.cs",
               "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Services\\ProductService.cs",
               "RelativeDocumentMoniker": "Services\\ProductService.cs",
@@ -297,12 +258,11 @@
               "RelativeToolTip": "Services\\ProductService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-22T16:16:28.1Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-22T16:16:28.1Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\UserRepository.cs",
@@ -310,285 +270,11 @@
               "RelativeToolTip": "Repositories\\UserRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-22T17:05:22.157Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-22T17:05:22.157Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ProductRepository.cs",
-              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Repositories\\ProductRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\ProductRepository.cs",
-              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Repositories\\ProductRepository.cs",
-              "RelativeToolTip": "Repositories\\ProductRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-22T16:09:37.972Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DbContextWrapper.cs",
-              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Repositories\\DbContextWrapper.cs",
-              "RelativeDocumentMoniker": "Repositories\\DbContextWrapper.cs",
-              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Repositories\\DbContextWrapper.cs",
-              "RelativeToolTip": "Repositories\\DbContextWrapper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-22T16:07:19.864Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Interfaces\\IUserService.cs",
-              "RelativeDocumentMoniker": "Interfaces\\IUserService.cs",
-              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Interfaces\\IUserService.cs",
-              "RelativeToolTip": "Interfaces\\IUserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-22T17:06:18.866Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Interfaces\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "Interfaces\\IUserRepository.cs",
-              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Interfaces\\IUserRepository.cs",
-              "RelativeToolTip": "Interfaces\\IUserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-22T17:04:50.761Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IProductService.cs",
-              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Interfaces\\IProductService.cs",
-              "RelativeDocumentMoniker": "Interfaces\\IProductService.cs",
-              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Interfaces\\IProductService.cs",
-              "RelativeToolTip": "Interfaces\\IProductService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-22T16:15:11.082Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "IDbContext.cs",
-              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Interfaces\\IDbContext.cs",
-              "RelativeDocumentMoniker": "Interfaces\\IDbContext.cs",
-              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Interfaces\\IDbContext.cs",
-              "RelativeToolTip": "Interfaces\\IDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-22T16:06:40.822Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "IProductRepository.cs",
-              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Interfaces\\IProductRepository.cs",
-              "RelativeDocumentMoniker": "Interfaces\\IProductRepository.cs",
-              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Interfaces\\IProductRepository.cs",
-              "RelativeToolTip": "Interfaces\\IProductRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-22T16:08:55.541Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
-              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-23T12:07:34.833Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
-              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "Controllers\\ProductController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-22T16:21:39.746Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "PaymentController.cs",
-              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Controllers\\PaymentController.cs",
-              "RelativeDocumentMoniker": "Controllers\\PaymentController.cs",
-              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Controllers\\PaymentController.cs",
-              "RelativeToolTip": "Controllers\\PaymentController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-25T19:52:27.691Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "OrderController.cs",
-              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Controllers\\OrderController.cs",
-              "RelativeDocumentMoniker": "Controllers\\OrderController.cs",
-              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Controllers\\OrderController.cs",
-              "RelativeToolTip": "Controllers\\OrderController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-27T18:33:39.729Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "InfoController.cs",
-              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Controllers\\InfoController.cs",
-              "RelativeDocumentMoniker": "Controllers\\InfoController.cs",
-              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Controllers\\InfoController.cs",
-              "RelativeToolTip": "Controllers\\InfoController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBsAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-27T18:31:34.082Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "EMIController.cs",
-              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Controllers\\EMIController.cs",
-              "RelativeDocumentMoniker": "Controllers\\EMIController.cs",
-              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Controllers\\EMIController.cs",
-              "RelativeToolTip": "Controllers\\EMIController.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAA1wDIAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-25T19:56:44.506Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
-              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "Controllers\\AdminController.cs",
-              "ViewState": "AgIAAAMBAAAAAAAAAAAkwB4BAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-23T11:05:16.594Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
-              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "Controllers\\AccountController.cs",
-              "ViewState": "AgIAAJMAAAAAAAAAAAAIwDsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-22T17:08:50.872Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "UsersApiController.cs",
-              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Controllers\\API\\UsersApiController.cs",
-              "RelativeDocumentMoniker": "Controllers\\API\\UsersApiController.cs",
-              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Controllers\\API\\UsersApiController.cs",
-              "RelativeToolTip": "Controllers\\API\\UsersApiController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-23T05:26:29.327Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "AuthApiController.cs",
-              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Controllers\\API\\AuthApiController.cs",
-              "RelativeDocumentMoniker": "Controllers\\API\\AuthApiController.cs",
-              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Controllers\\API\\AuthApiController.cs",
-              "RelativeToolTip": "Controllers\\API\\AuthApiController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-23T10:27:41.027Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "UserServiceTests.cs",
-              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem\\Services\\UserServiceTests.cs",
-              "RelativeDocumentMoniker": "..\\FinanceManagementSystem\\Services\\UserServiceTests.cs",
-              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem\\Services\\UserServiceTests.cs",
-              "RelativeToolTip": "..\\FinanceManagementSystem\\Services\\UserServiceTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-28T06:59:20.213Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "info-pages.css",
-              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Content\\info-pages.css",
-              "RelativeDocumentMoniker": "Content\\info-pages.css",
-              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Content\\info-pages.css",
-              "RelativeToolTip": "Content\\info-pages.css",
-              "ViewState": "AgIAAHoAAAAAAAAAAADwv5sAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-01-27T18:35:13.719Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "orders.css",
-              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Content\\orders.css",
-              "RelativeDocumentMoniker": "Content\\orders.css",
-              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Content\\orders.css",
-              "RelativeToolTip": "Content\\orders.css",
-              "ViewState": "AgIAAEMAAAAAAAAAAADwv2QAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-01-27T18:35:41.786Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "pay-emi.css",
-              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Content\\pay-emi.css",
-              "RelativeDocumentMoniker": "Content\\pay-emi.css",
-              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Content\\pay-emi.css",
-              "RelativeToolTip": "Content\\pay-emi.css",
-              "ViewState": "AgIAAFgAAAAAAAAAAADwv1kAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-01-27T18:02:08.864Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 1,
               "Title": "FinanceModel.edmx [Diagram1]",
               "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Models\\FinanceModel.edmx",
               "RelativeDocumentMoniker": "Models\\FinanceModel.edmx",
@@ -600,6 +286,295 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T17:08:50.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Services\\UserService.cs",
+              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Services\\UserService.cs",
+              "RelativeToolTip": "Services\\UserService.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAgwCAAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T17:07:19.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdminLoginViewModel.cs",
+              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\ViewModels\\AdminLoginViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\AdminLoginViewModel.cs",
+              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\ViewModels\\AdminLoginViewModel.cs",
+              "RelativeToolTip": "ViewModels\\AdminLoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T11:04:36.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T07:33:11.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ProductRepository.cs",
+              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "Repositories\\ProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T16:09:37.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DbContextWrapper.cs",
+              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Repositories\\DbContextWrapper.cs",
+              "RelativeDocumentMoniker": "Repositories\\DbContextWrapper.cs",
+              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Repositories\\DbContextWrapper.cs",
+              "RelativeToolTip": "Repositories\\DbContextWrapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T16:07:19.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IUserService.cs",
+              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "Interfaces\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T17:06:18.866Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "Interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T17:04:50.761Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Interfaces\\IProductService.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IProductService.cs",
+              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Interfaces\\IProductService.cs",
+              "RelativeToolTip": "Interfaces\\IProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T16:15:11.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IDbContext.cs",
+              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Interfaces\\IDbContext.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IDbContext.cs",
+              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Interfaces\\IDbContext.cs",
+              "RelativeToolTip": "Interfaces\\IDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T16:06:40.822Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Interfaces\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IProductRepository.cs",
+              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Interfaces\\IProductRepository.cs",
+              "RelativeToolTip": "Interfaces\\IProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T16:08:55.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T12:07:34.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T16:21:39.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PaymentController.cs",
+              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Controllers\\PaymentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PaymentController.cs",
+              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Controllers\\PaymentController.cs",
+              "RelativeToolTip": "Controllers\\PaymentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-25T19:52:27.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrderController.cs",
+              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "Controllers\\OrderController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T18:33:39.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "InfoController.cs",
+              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Controllers\\InfoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\InfoController.cs",
+              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Controllers\\InfoController.cs",
+              "RelativeToolTip": "Controllers\\InfoController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBsAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T18:31:34.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "EMIController.cs",
+              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Controllers\\EMIController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EMIController.cs",
+              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Controllers\\EMIController.cs",
+              "RelativeToolTip": "Controllers\\EMIController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAA1wDIAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-25T19:56:44.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAMBAAAAAAAAAAAkwB4BAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T11:05:16.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "UsersApiController.cs",
+              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Controllers\\API\\UsersApiController.cs",
+              "RelativeDocumentMoniker": "Controllers\\API\\UsersApiController.cs",
+              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Controllers\\API\\UsersApiController.cs",
+              "RelativeToolTip": "Controllers\\API\\UsersApiController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T05:26:29.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AuthApiController.cs",
+              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Controllers\\API\\AuthApiController.cs",
+              "RelativeDocumentMoniker": "Controllers\\API\\AuthApiController.cs",
+              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Controllers\\API\\AuthApiController.cs",
+              "RelativeToolTip": "Controllers\\API\\AuthApiController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T10:27:41.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "UserServiceTests.cs",
+              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem\\Services\\UserServiceTests.cs",
+              "RelativeDocumentMoniker": "..\\FinanceManagementSystem\\Services\\UserServiceTests.cs",
+              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem\\Services\\UserServiceTests.cs",
+              "RelativeToolTip": "..\\FinanceManagementSystem\\Services\\UserServiceTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T06:59:20.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "info-pages.css",
+              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Content\\info-pages.css",
+              "RelativeDocumentMoniker": "Content\\info-pages.css",
+              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Content\\info-pages.css",
+              "RelativeToolTip": "Content\\info-pages.css",
+              "ViewState": "AgIAAHoAAAAAAAAAAADwv5sAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-01-27T18:35:13.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "orders.css",
+              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Content\\orders.css",
+              "RelativeDocumentMoniker": "Content\\orders.css",
+              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Content\\orders.css",
+              "RelativeToolTip": "Content\\orders.css",
+              "ViewState": "AgIAAEMAAAAAAAAAAADwv2QAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-01-27T18:35:41.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "pay-emi.css",
+              "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Content\\pay-emi.css",
+              "RelativeDocumentMoniker": "Content\\pay-emi.css",
+              "ToolTip": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Content\\pay-emi.css",
+              "RelativeToolTip": "Content\\pay-emi.css",
+              "ViewState": "AgIAAFgAAAAAAAAAAADwv1kAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-01-27T18:02:08.864Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 29,
               "Title": "register.css",
               "DocumentMoniker": "C:\\FinanceProject\\FinanceManagementSystem\\FinanceManagementSystem_Prj\\Content\\register.css",
@@ -608,8 +583,7 @@
               "RelativeToolTip": "Content\\register.css",
               "ViewState": "AgIAAB4AAAAAAAAAAAAAAGEBAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-01-23T06:14:28.644Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-23T06:14:28.644Z"
             },
             {
               "$type": "Document",
@@ -621,8 +595,7 @@
               "RelativeToolTip": "Content\\admin.css",
               "ViewState": "AgIAAKAAAAAAAAAAAAAAALEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-01-23T11:28:47.063Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-23T11:28:47.063Z"
             },
             {
               "$type": "Document",
@@ -634,8 +607,7 @@
               "RelativeToolTip": "Models\\EMIPayment.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAIwBoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-27T11:19:40.467Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-27T11:19:40.467Z"
             },
             {
               "$type": "Document",
@@ -647,8 +619,7 @@
               "RelativeToolTip": "Content\\admin-dashboard.css",
               "ViewState": "AgIAACIAAAAAAAAAAAAcwC4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-01-24T18:58:35.622Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-24T18:58:35.622Z"
             },
             {
               "$type": "Document",
@@ -660,8 +631,7 @@
               "RelativeToolTip": "Content\\product-details.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-01-26T19:10:52.29Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-26T19:10:52.29Z"
             },
             {
               "$type": "Document",
@@ -673,8 +643,7 @@
               "RelativeToolTip": "Content\\emi-plan.css",
               "ViewState": "AgIAAJEAAAAAAAAAAAAcwK8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-01-26T18:30:43.365Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-26T18:30:43.365Z"
             },
             {
               "$type": "Document",
@@ -686,8 +655,7 @@
               "RelativeToolTip": "Content\\payment-option.css",
               "ViewState": "AgIAACgAAAAAAAAAAAAcwEYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-01-26T18:25:24.687Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-26T18:25:24.687Z"
             },
             {
               "$type": "Document",
@@ -699,8 +667,7 @@
               "RelativeToolTip": "Content\\emi-dashboard.css",
               "ViewState": "AgIAAEUAAAAAAAAAAAAgwIEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-01-26T07:45:25.869Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-26T07:45:25.869Z"
             },
             {
               "$type": "Document",
@@ -712,8 +679,7 @@
               "RelativeToolTip": "Content\\emi.css",
               "ViewState": "AgIAABUAAAAAAAAAAAAgwDMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-01-26T05:39:46.179Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-26T05:39:46.179Z"
             },
             {
               "$type": "Document",
@@ -725,8 +691,7 @@
               "RelativeToolTip": "Scripts\\product-dashboard.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2026-01-25T14:54:11.518Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-25T14:54:11.518Z"
             },
             {
               "$type": "Document",
@@ -738,8 +703,7 @@
               "RelativeToolTip": "Content\\product-dashboard.css",
               "ViewState": "AgIAAOgAAAAAAAAAAAAcwPEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-01-25T14:30:27.709Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-25T14:30:27.709Z"
             },
             {
               "$type": "Document",
@@ -751,8 +715,7 @@
               "RelativeToolTip": "Content\\Site.css",
               "ViewState": "AgIAAA0AAAAAAAAAAAAcwCsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-01-25T14:03:36.909Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-25T14:03:36.909Z"
             },
             {
               "$type": "Document",
@@ -764,8 +727,7 @@
               "RelativeToolTip": "Content\\payment-Joiningfee.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-01-25T12:41:40.555Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-25T12:41:40.555Z"
             },
             {
               "$type": "Document",
@@ -777,8 +739,7 @@
               "RelativeToolTip": "Content\\emi-card.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-01-25T12:27:50.602Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-25T12:27:50.602Z"
             },
             {
               "$type": "Document",
@@ -790,8 +751,7 @@
               "RelativeToolTip": "Content\\user-dashboard.css",
               "ViewState": "AgIAAM8AAAAAAAAAAAAcwO0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-01-23T12:44:03.219Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-23T12:44:03.219Z"
             },
             {
               "$type": "Document",
@@ -803,8 +763,7 @@
               "RelativeToolTip": "Models\\EMICard.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAQwCEAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-24T13:51:00.431Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-24T13:51:00.431Z"
             },
             {
               "$type": "Document",
@@ -816,8 +775,7 @@
               "RelativeToolTip": "Models\\UserCardApplication.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-24T12:12:16.783Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-24T12:12:16.783Z"
             },
             {
               "$type": "Document",
@@ -829,8 +787,7 @@
               "RelativeToolTip": "Content\\register-success.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAFMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-01-25T04:39:48.51Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-25T04:39:48.51Z"
             },
             {
               "$type": "Document",
@@ -842,8 +799,7 @@
               "RelativeToolTip": "Content\\admin-viewuser.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-01-23T17:09:29.403Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-23T17:09:29.403Z"
             },
             {
               "$type": "Document",
@@ -855,8 +811,7 @@
               "RelativeToolTip": "Content\\finance-navbar.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-01-24T09:18:58.357Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-24T09:18:58.357Z"
             },
             {
               "$type": "Document",
@@ -868,8 +823,7 @@
               "RelativeToolTip": "Content\\apply-card-success.css",
               "ViewState": "AgIAACYAAAAAAAAAAAAcwFAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-01-23T17:37:19.512Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-23T17:37:19.512Z"
             },
             {
               "$type": "Document",
@@ -881,8 +835,7 @@
               "RelativeToolTip": "Content\\login.css",
               "ViewState": "AgIAAH4AAAAAAAAAAAAcwJwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-01-23T10:50:12.151Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-23T10:50:12.151Z"
             },
             {
               "$type": "Document",
@@ -894,8 +847,7 @@
               "RelativeToolTip": "Content\\auth-common.css",
               "ViewState": "AgIAAAsAAAAAAAAAAAAcwCIAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-01-24T10:01:45.598Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-24T10:01:45.598Z"
             },
             {
               "$type": "Document",
@@ -907,8 +859,7 @@
               "RelativeToolTip": "Content\\select-card.css",
               "ViewState": "AgIAAGsAAAAAAAAAAAAcwIkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-01-23T17:57:29.871Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-23T17:57:29.871Z"
             },
             {
               "$type": "Document",
@@ -920,8 +871,7 @@
               "RelativeToolTip": "App_Start\\WebApiConfig.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-23T05:41:16.03Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-23T05:41:16.03Z"
             },
             {
               "$type": "Document",
@@ -933,8 +883,7 @@
               "RelativeToolTip": "Validators\\AgeValidator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-23T06:23:18.462Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-23T06:23:18.462Z"
             },
             {
               "$type": "Document",
@@ -946,8 +895,7 @@
               "RelativeToolTip": "Global.asax.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-23T05:41:54.508Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-23T05:41:54.508Z"
             }
           ]
         }
