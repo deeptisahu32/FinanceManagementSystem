@@ -44,7 +44,7 @@ namespace FinanceManagementSystem_Prj.Controllers
 
                 if (admin != null)
                 {
-                    // ✅ SET ADMIN SESSION
+                    //  SET ADMIN SESSION
                     Session["AdminId"] = admin.AdminId;
                     Session["AdminUsername"] = admin.Username;
 
@@ -126,10 +126,10 @@ namespace FinanceManagementSystem_Prj.Controllers
                 user.IsActive = true;
                 _context.SaveChanges();
 
-                // ✅ CLEAR REJECT MESSAGE
+                // CLEAR REJECT MESSAGE
                 TempData.Remove("Error");
 
-                // ✅ SET APPROVE MESSAGE
+                // SET APPROVE MESSAGE
                 TempData["Success"] = "User approved successfully.";
 
                 return RedirectToAction("Dashboard");
@@ -255,7 +255,7 @@ namespace FinanceManagementSystem_Prj.Controllers
                     return RedirectToAction("PendingApplications");
                 }
 
-                //  SAFE credit limit read
+                //   credit limit read
                 decimal limit = app.CardType != null ? app.CardType.CardLimit : 0;
 
                 //  Create EMI Card
@@ -284,7 +284,7 @@ namespace FinanceManagementSystem_Prj.Controllers
             }
             catch (Exception ex)
             {
-                //  TEMP DEBUG (IMPORTANT)
+                 
                 TempData["Error"] = "Failed to issue EMI card: " + ex.Message;
                 return RedirectToAction("PendingApplications");
             }

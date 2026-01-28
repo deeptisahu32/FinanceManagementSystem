@@ -85,6 +85,8 @@ namespace FinanceManagementSystem_Prj.Controllers
             {
                 client.BaseAddress = new Uri("https://localhost:44362/");
 
+                //ModelState is an object that stores the result of model binding and validation.
+                //“We use JsonConvert.SerializeObject to convert a C# object into JSON
                 var json = JsonConvert.SerializeObject(model);
                 var content = new StringContent(json, Encoding.UTF8, "application/json");
 
@@ -135,10 +137,7 @@ namespace FinanceManagementSystem_Prj.Controllers
             return RedirectToAction("ResetPassword", new { id = user.UserId });
         }
 
-
-
-
-
+         
 
         //For Reset Password
         public ActionResult ResetPassword(int id)
@@ -167,8 +166,6 @@ namespace FinanceManagementSystem_Prj.Controllers
         }
 
        
-
-        
 
         [HttpGet]
         public ActionResult Logout()

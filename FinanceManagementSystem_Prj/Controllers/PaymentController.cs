@@ -27,8 +27,7 @@ namespace FinanceManagementSystem_Prj.Controllers
         [HttpGet]
         public ActionResult BuyOnEMI(int productId)
         {
-            //var product = _context.Products.Find(productId);
-            //return View(product);
+            
             if (Session["UserId"] == null)
                 return RedirectToAction("Login", "Account");
 
@@ -172,9 +171,9 @@ namespace FinanceManagementSystem_Prj.Controllers
                 DateTime today = DateTime.Today;
                 DateTime purchaseDate = emi.Purchase.PurchaseDate ?? today;
 
-                // =========================
+                
                 //  PAYMENT MODE RULES
-                // =========================
+                
 
                 // EMI → only on due date
                 if (emi.PaymentMode == "EMI" && today != emi.DueDate.Date)
@@ -225,9 +224,8 @@ namespace FinanceManagementSystem_Prj.Controllers
                 DateTime today = DateTime.Today;
                 DateTime purchaseDate = emi.Purchase.PurchaseDate ?? today;
 
-                // =========================
+                 
                 //  RE-VALIDATE RULES
-                // =========================
 
                 if (emi.PaymentMode == "EMI" && today != emi.DueDate.Date)
                 {
@@ -242,9 +240,7 @@ namespace FinanceManagementSystem_Prj.Controllers
                     return RedirectToAction("MyEMIs", "User");
                 }
 
-                // =========================
                 //  PAYMENT SUCCESS
-                // =========================
 
                 emi.IsPaid = true;
                 emi.PaymentStatus = "Paid";
@@ -267,13 +263,9 @@ namespace FinanceManagementSystem_Prj.Controllers
             }
         }
 
-        //from here new code
+        
         public ActionResult ChoosePaymentOption(int productId, string mode)
-        {
-            //var product = _context.Products.Find(productId);
-            //if (product == null) return HttpNotFound();
-
-            //return View(product);
+        { 
             var product = _context.Products.FirstOrDefault(p => p.ProductId == productId);
             ViewBag.Mode = mode;
             return View(product);
@@ -324,7 +316,7 @@ namespace FinanceManagementSystem_Prj.Controllers
                     );
                 }
 
-                // ================= PURCHASE =================
+                // PURCHASE 
                 var purchase = new Purchase
                 {
                     UserId = userId,
@@ -338,11 +330,11 @@ namespace FinanceManagementSystem_Prj.Controllers
                 _context.Purchases.Add(purchase);
                 _context.SaveChanges();
 
-                // ================= EMI SCHEDULE =================
+                //  EMI SCHEDULE  
                 decimal baseEmi = Math.Round(product.Price / emiMonths, 2);
                 decimal allocated = 0;
 
-                for (int i = 1; i <= emiMonths; i++)
+                for (int i = 1; i <= emiMonths; i++) //create one emi record per month 
                 {
                     decimal amount =
                         (i == emiMonths) ? product.Price - allocated : baseEmi;
@@ -372,7 +364,7 @@ namespace FinanceManagementSystem_Prj.Controllers
 
                 _context.Orders.Add(order);
 
-                // ================= CARD LIMIT UPDATE =================
+                // CARD LIMIT UPDATE 
                 card.UsedLimit += product.Price;
                 card.AvailableLimit = (decimal)(card.CreditLimit - card.UsedLimit);
 
